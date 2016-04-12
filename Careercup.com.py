@@ -13,8 +13,6 @@ driver = webdriver.Chrome('chromedriver.exe')
 def parsePage(html):
     p = re.compile('<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\<\>]*?)</p>.*?<a href="/user.*popup\(.*\)\;\"\>(.*?)</a>')    
     Ms=re.finditer(p,html)
-           
-    
     for M in Ms:
         fw.write(M.group(1)+'\n')
         fw.write(M.group(2)+'\n')    
