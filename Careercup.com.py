@@ -52,5 +52,5 @@ while True:
         print error_type, 'Line:', error_info.tb_lineno
         break
         time.sleep(2)
-        page+=1
+    page+=1
 fw.close()
