@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
-
 """
 Created on Thu Mar 10 19:19:40 2016
+
 @author: Lalit
 """
 import re,sys,time
 from selenium import webdriver
-#import json
+from fuzzywuzzy import fuzz
+import json
 #reload(sys)  
 
 # Set default python encoding to utf-8 instead of asciii.
@@ -24,31 +25,28 @@ def parsePage(html):
     # Working 2 #for 3 tags '<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?)</p>.*?[\s\-\<a-zA-Z\/\>\=\"\:\.\?\d\(\)\;]*?<abbr.*class="timeago".*?\"\>(.*?)\<\/abbr>[a-zA-Z\s\<\_\=\"\d\/\?\>\|\:\.]*?(<span.*class="tags">.*[a-zA-Z\s\<\=\"\:\/\/\?\.\-\>]*?</span>)')
     #'<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\<\>]*?)</p>.*?<a href="/user.*popup\(.*\)\;\"\>(.*?)</a>')    
     Ms=re.finditer(p,html)
+    strTags=''
     for count,M in enumerate(Ms):
-        global qnum
-        qnum=qnum+1
-        fw.write('\n'+"---Question :"+str(qnum)+"---"+'\n')        
-        ques=re.sub(' +',' ',M.group(1)).strip()
-        question=re.sub(' +',' ',ques).strip()#remove duplicate spaces
-        fw.write(question+'\n')   
-        #print question
-        #fw.write('\n'+M.group(2)+'\n')
         tagshtml=M.group(3)
         tags=re.finditer('<a.*?[a-z\<\s\=\"\>\/\?\-]*?>(.*?)</a>',tagshtml)
+                
+        strTags=''
         for tag in tags:
-            fw.write('\n'+tag.group(1))
-        fw.write('\n'+'EndOfQuestion'+'\n')
-
-fw=open('dataset.txt','a+')
+            strTags+=str(tag.group(1)+' ')
+        data = {'question' : M.group(1),'tags' :strTags}
+        json.dump(data, f)             
+        f.write('\n')
+        
+#fw=open('dataset.txt','a+')
+f=open('data.json', 'a+')
 page=1
-qnum=0
 while True:
     
     try:    
         url='https://www.careercup.com/page?n='+str(page)
-        print 'Processing Page:',page
         driver.get(url)
         htmldat=driver.page_source
+        
         html1=htmldat.replace("<br />","")
         html=html1.replace("<br>","")
         #print html
@@ -58,7 +56,59 @@ while True:
         print 'STOPPING - COULD NOT FIND THE LINK TO PAGE: ', page
         print error_type, 'Line:', error_info.tb_lineno
         break
-    time.sleep(3)
+    time.sleep(5)
     page+=1
-fw.close()
+f.close()
 #####################
+
+
+s1='System design of high traffic eCommerce website including inventory'
+s2='eCommerce including inventory designs'
+s3='eCommerce website including inventory design system is use less'
+s4='info sys maths website inventory design'
+s5='Maths what info sys in not a competitive in area of sector'
+
+
+fuzz.partial_ratio(s1, s1)
+fuzz.partial_ratio(s1, s2)
+fuzz.partial_ratio(s1, s3)
+fuzz.partial_ratio(s1, s4)
+fuzz.partial_ratio(s1, s5)
+
+
+fuzz.token_set_ratio(s1, s2)
+fuzz.token_set_ratio(s1, s3)
+
+
+from difflib import SequenceMatcher as SM
+s1 = ' It was a dark and stormy night. I was all alone sitting on a red chair. I was not completely alone as I had three cats.'
+s2 = ' It was a murky and stormy night. I was all alone sitting on a crimson chair. I was not completely alone as I had three felines.'
+SM(None, s1, s2).ratio()
+#0.9112903225806451
+
+
+#difflib 
+ #get_close_matches('appel', ['ape', 'apple', 'peach', 'puppy'])
+ #s = SequenceMatcher(None, "abcd", "bcde")
+
+
+#s.ratio()
+#s.real_quick_ratio()
+
+
+#simstring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
