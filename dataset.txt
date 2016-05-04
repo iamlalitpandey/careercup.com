@@ -1,4 +1,3 @@
-
 ---Question :1---
 LRU Cache
 
@@ -2196,4 +2195,5629 @@ In your large programme, thereis memory leak, how will ypu find out where(Linux)
 
 HCL
 Developer Program Engineer
+EndOfQuestion
+
+---Question :165---
+given 2 processes. Each having 4 threads. ! thread is having performance issue. How will you find out that thread (Linux)
+
+HCL
+Developer Program Engineer
+EndOfQuestion
+
+---Question :166---
+given 2 processes , how to use a semaphore which is locked on 1 process and released in other(Linux)
+
+HCL
+Developer Program Engineer
+EndOfQuestion
+
+---Question :167---
+There are IPCs in Linux- Pipe, Fifo, Shared Memory, Message Queue, Socket. Which cases which IPC to choose(Linux)
+
+HCL
+Developer Program Engineer
+EndOfQuestion
+
+---Question :168---
+input[] ={"ab","cd","f","ab","ef","abc"} 
+
+if we search in string s ="ab"; then
+ output 3
+
+Persistent Systems
+Java Developer
+EndOfQuestion
+
+---Question :169---
+input ={"p","q","r"},{"p","s","w"}
+ return intersection value {"p"}
+output:{"p"}
+
+Persistent Systems
+Java Developer
+EndOfQuestion
+
+---Question :170---
+Design whatsapp like app. Focus on scallable issues.
+
+Principal Software Engineer
+EndOfQuestion
+
+---Question :171---
+Design Game. Focus more on classes involved and make it online game.
+
+Principal Software Engineer
+EndOfQuestion
+
+---Question :172---
+How can we implement a tree for object in java?
+for example class test
+{
+string name;
+int id;
+};
+
+i want to implement a tree on basis of id...
+
+TATA Consultancy Services
+Software Development Manager
+EndOfQuestion
+
+---Question :173---
+Given two arrays/Lists (choose whatever you want to) with sorted and non intersecting intervals. Merge them to get a new sorted non intersecting array/list.
+
+Eg:
+Given:
+Arr1 = [3-11, 17-25, 58-73];
+Arr2 = [6-18, 40-47];
+
+Wanted:
+Arr3 = [3-25, 40-47, 58-73];
+
+Facebook
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :174---
+Today is school picture day and everybody,
+including the teacher, has lined up in a single line for the class picture. 
+Design an O(n log n) Java code that computes the minimum number of swaps necessary to be in order
+
+Amazon
+Intern
+Java
+EndOfQuestion
+
+---Question :175---
+Given is a large paper with n different points with coordinates (x1, y1),(x2, y2), . . . ,(xn, yn).
+Keep folding at 45 degres
+
+Amazon
+Intern
+Java
+EndOfQuestion
+
+---Question :176---
+Define a function that can detect whether the characters of a string can be shuffled without repeating same characters as one other's neighbors. E.g. : 
+apple &gt;&gt; alpep, so valid
+a &gt;&gt; a, valid
+aa &gt;&gt; aa, invalid/impossible
+aab &gt;&gt; aba, valid
+aaaabbcc &gt;&gt; acabacab, valid
+etc.
+You do not have to find one representation, just have to detect if it is possible or not!
+
+Google
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :177---
+Given a table with id and value , 
+======
+id value
+======
+101 100
+102 150
+101 80
+101 200
+102 120
+======
+
+Find the median value using SQL. Goes without saying that you can't use MEDIAN function of Oracle SQL.
+
+output:
+
+101 100
+102 175
+
+Principal Software Engineer
+EndOfQuestion
+
+---Question :178---
+-
+
+Google
+EndOfQuestion
+
+---Question :179---
+I want to run a function that does that automatically for me until the condition is complete (condition is some update statement),if i have 2000 records and exit when condition should be counter&lt;500;
+so if i have 2000 records so counter will be 2000/500 =4 
+loop will execute for 4 times
+update statement should consist of 
+update tablename set counter=1 where rownum&lt;500
+
+this process continues until the update condition is met
+
+Analyst
+SQL
+EndOfQuestion
+
+---Question :180---
+There is a 10 lakh switches out of which any random at max 1000 switches are on and robot is pointing to any number. And its took 1 sec time to off one switch.
+Suggest any algorithm in which the it took minimum time to off all the switches.
+
+Brain Storming
+EndOfQuestion
+
+---Question :181---
+find consecutive integers in a list that give you the biggest sum
+
+Like for -2 5 -1 7 -3 it would be 5 -1 7
+
+Google
+Java
+EndOfQuestion
+
+---Question :182---
+Check if an integer array is arithmetic sequence.
+
+Example: 1, 2, 3, 4, 5, 6, 7, 8 =&gt; true
+		1, 3, 5, 7, 9 =&gt; true
+
+Array may not be sorted.
+
+Amazon
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :183---
+Write the function READ, which is passed two double pointers pointing to the head pointers of two linked lists. 
+
+One list will hold even integers, the other one will hold odd integers. READ reads a series of integers. It separates adds odd integers to the first list, and even ones to the second, all in sorted order.
+
+Google
+C
+EndOfQuestion
+
+---Question :184---
+An Integer array is given,
+Find the combination of number in the array which satisfies the equation: a to the power b= c.
+A number should not be repeated in multiple combination. 
+1. a and b are adjacent no. in the array.c can be any where in the array.
+2.No other array or data structure can be used. However modification of current array is possible. 
+Define a function which will take array as input and generate a output array (a modification of input array).
+Example: Input array: 1 2 3 8 5 
+out put: 2 3 8 0 0
+
+xyz
+Software Developer
+EndOfQuestion
+
+---Question :185---
+Second Least common element from an Integer array. 
+
+Example: 
+
+[5,5,4,5,4,6,6,6,1,3,3,4,4,5,4] 
+
+Answer: 3 
+
+Reason: {1=1, 3=2, 4=5, 5=4, 6=3}
+
+Bank of America
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :186---
+Write test cases for siri mobileapp?or give me test cases for siri app9mobile)
+
+Adobe
+Software Engineer in Test
+Quality Assurance Testing
+EndOfQuestion
+
+---Question :187---
+Design a chat application. How will u handle huge data?
+
+Amazon
+SDE-2
+EndOfQuestion
+
+---Question :188---
+Design an online pizza delivery system. Complete OO Design needed.
+
+Amazon
+SDE-2
+EndOfQuestion
+
+---Question :189---
+Find the output of the following program:
+
+#include&lt;stdio.h&gt;
+int main()
+{
+ int x=10; int y;
+ {
+ y=x++;
+ }
+ printf("%d",x);
+}
+
+Answer: 11
+doubt: why the answer is not 10.
+
+Student
+Student
+C
+EndOfQuestion
+
+---Question :190---
+Given a binary tree, we are supposed to find nth smallest element.
+
+xyz
+abc
+Algorithm
+EndOfQuestion
+
+---Question :191---
+Give java code that takes an instance of the stable marriage problem as input and decides if there is { exactly one} stable matching for this instance (that is, the program outputs either ``unique stable matching'', or ``more than one stable matching'').
+
+input:
+3
+0 1 2
+1 0 2
+0 1 2
+1 0 2
+0 1 2
+0 1 2
+
+Output:
+more than one stable matching
+
+Intuit
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :192---
+Remove duplicates from string given " cutcopypaste " Return "uoyase"
+
+Accenture
+Software Engineer
+EndOfQuestion
+
+---Question :193---
+Given a 2D array of digits, try to find the occurrence of a given 2D pattern of digits. For example, consider the following 2D matrix:
+
+7283455864
+6731158619
+8988242643
+3839505324
+9509505813
+3843845384
+6473530293
+7053106601
+0834282956
+4607924137
+
+Assume we need to look for the following 2D pattern:
+
+950
+384
+353
+
+Amazon
+Software Developer
+Matrix
+EndOfQuestion
+
+---Question :194---
+there is a file and 5 processes
+how can you grant access so that
+only 2 process can write to file and 1 can read file at a time
+in linux
+
+Samsung
+Applications Developer
+EndOfQuestion
+
+---Question :195---
+Given a string containing only 0 and 1's, write a function that reverses and returns the two complements of the string.
+
+C
+EndOfQuestion
+
+---Question :196---
+Hey, everyone! I'm stuck trying to add my name, character by character over a certain amount of output lines. I have to use hail stone (which I've already figured out). It needs to look like this:
+
+ Please enter a Number: 53
+ J 132 is an odd number, so I make 3n + 1: 160
+ O 234 is an even number, so I take half: 80
+ H 154 is an even number, so I take half: 40
+ N 114 is an even number, so I take half: 20
+(TAB) 94 is an even number, so I take half: 10
+ D 84 is an even number, so I take half: 5
+ O 84 is an odd number, so I make 3n + 1: 16
+ E 90 is an even number, so I take half: 8
+ 82 is an even number, so I take half: 4
+ 78 is an even number, so I take half: 2
+ 76 is an even number, so I take half: 1
+ The process took 11 steps to reach 1
+
+Student
+Student
+EndOfQuestion
+
+---Question :197---
+Without using arrays, write a Console application that reads in a list of integers, one per line, until a sentinel value of 0 (which you should be able to change easily to some other value). When the sentinel is read, your program should display the following numbers:
+Smallest and largest values in the list, 
+Second smallest and second largest values in the list
+
+This is what I have so far.
+
+UTMB
+System Administrator
+Java
+EndOfQuestion
+
+---Question :198---
+How do you design a system for very large graphs(does not fit in a single machine)?
+
+Google
+System Design
+EndOfQuestion
+
+---Question :199---
+find the maximum depth in a binary tree.
+
+Amazon
+Software Engineer Intern
+EndOfQuestion
+
+---Question :200---
+given an integer array , find all combinations which sum to a given number. If a number is used once, it must not be used again. 
+eg if input array is 6444 and sum =10
+output must be just 6 4
+Give an O(n) solution
+
+Amazon
+Software Engineer Intern
+EndOfQuestion
+
+---Question :201---
+given a string with only paranthesis - find out if it is balanced or not 
+eg {}[]()
+followup : scale your solution and specify the right data structure to use if you have a lot of such bracket types
+
+Amazon
+Software Engineer Intern
+EndOfQuestion
+
+---Question :202---
+Implement following interface so that multi-put is atomic. Expect multiple producers and consumers inserting to and extracting from this queue implementation.
+
+/**
+ * threadSafe bounded blocking queue implementation. Expected to be used in a
+ * Producer-&gt;Consumer pattern
+ */
+public interface MultiPutBlockingBoundedQueue&lt;E&gt; {
+
+ /**
+ * Sets the capacity of the buffer. Can be called only once. If called more
+ * than once or if the passed capacity is &lt;= 0, throw an exception.
+ */
+ public void init(int capacity) throws Exception;
+
+ /**
+ * Get the next item from the queue throws Exception if not initialized
+ */
+ public E get() throws Exception;
+
+ /**
+ * Put the item to the tail of the queue. throws Exception if not
+ * initialized
+ */
+ public void put(E obj) throws Exception;
+
+ /**
+ * Put the list of items in an atomic manner. The list can be more than the
+ * capacity throws Exception if not initialized
+ */
+ public void multiput(List&lt;E&gt; objs) throws Exception;
+
+}
+
+Linkedin
+Software Engineer
+Java
+EndOfQuestion
+
+---Question :203---
+how can i merge 2 nodes in a graph in 1 node , need to save the in and out edges and the nodes that was merged for contribution after that 
+
+for example a graph implementation in adj list: 
+1-&gt;3-&gt;4-&gt;6
+2-&gt;3-&gt;4-&gt;6
+5-&gt;4-&gt;6
+
+and i want to merge the nodes 3 and 4 , then new nodes should be created 7 as :
+1-&gt;7-&gt;6
+2-&gt;7-&gt;6
+5-&gt;7-&gt;6
+7-&gt;6
+
+the node 7 also will save [include 3,4 the merged nodes]
+any one can help with that please 
+
+typedef struct AdjListEntry {
+ int visited;
+ int index;
+ struct AdjListNode current; // node iniformation
+ struct AdjListEntry* next;
+} AdjListEntry;
+
+typedef struct AdjListNode {
+ int Uind;
+ char name[10];
+ char label[10];
+ adjOutEddgeLists *outEddges;
+ //adjInEddgeLists *inEddges;
+} AdjListNode;
+
+typedef struct adjOutEddgeLists{
+ AdjListNode *listNode;
+ adjOutEddgeLists *next;
+}adjOutEddgeLists;
+
+Amazon
+Software Engineer
+C
+EndOfQuestion
+
+---Question :204---
+Implement a Qsort similar to the build in one in C, but use an insertion sort instead
+
+void GoogleSort(void *ptr, int number, int SIZE, int (*functionp)(const void *, const void *)) {
+
+}
+
+Google
+Software Engineer
+C
+EndOfQuestion
+
+---Question :205---
+If you have 1TB of unsorted long integers but 1GB of memory, devise an algorithm to efficiently sort the integers. What is the time complexity? What is the space complexity?
+
+Microsoft
+Software Engineer
+EndOfQuestion
+
+---Question :206---
+How to create whatapp database ?
+
+Infibeam
+Java Developer
+EndOfQuestion
+
+---Question :207---
+Find the length of a maximum palindrome subset in an array. For example: in 1, 2, 4, 1 the maximum palindrome subset is 1, 2, 1 and the answer is 3
+
+Linkedin
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :208---
+Implement a function which modifies a binary tree so that the output is the tree that is a mirror of an input tree
+
+Linkedin
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :209---
+1) What is transaction
+
+Linkedin
+Software Engineer
+Computer Science
+EndOfQuestion
+
+---Question :210---
+Task schedule: given a sequence of task like A B C(means 3 different tasks), and a coldtime, which means you need to wait for that much time to start next [same] task. Now----
+
+Input: string, n
+Output: the best task-finishing sequence.
+
+eg. input: AAABBB, 2
+Output: AB_AB_AB
+( "_" represents do nothing and wait)
+
+Facebook
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :211---
+You are at Amazon search-box, please specify, what Test Cases / Test Plans would you write down: Just name them, don't provide steps, consider wider scope not just functionality.
+
+Amazon
+Quality Assurance Engineer
+Quality Assurance Testing
+EndOfQuestion
+
+---Question :212---
+Write a program to check if a chess move is valid. The api should be extendible to cover cases like castling and pawn promotion.
+
+Flipkart
+Software Engineer
+Coding
+EndOfQuestion
+
+---Question :213---
+Generic Question: You have a list of items that's nearly sorted. What algorithm would you use to completely sort it? Even though it's already sorted, the least element could be at the other end ...eg: 4,5,6,7,8,9,10,11,1
+
+She then said that what would be the approach if the data was not like that, as in , not so extreme.
+
+Microsoft
+Dev Lead
+Algorithm
+EndOfQuestion
+
+---Question :214---
+You are given a function bool rand_bit_p() that returns true with some unknown probability p and false with probability 1 - p.
+Write function rand_bit() using rand_bit_p that will return true and false with equal probability (that is, implement a fair coin, given unfair coin)
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :215---
+Organization has online services running across world. To use online services, User create account by entering personal details like - First Name, Last Name, Phone number, Address and etc... 
+Russia has passed new law that any Russian citizen who is creating account to use online services, his account information needs to store in Russia first and then read-only copies allowed to replicate across the world.
+Please suggest cost effective solution/design for this scenario otherwise online services will be blocked to use in Russia. How do we handle if any other country Germany is also come up with this law?
+
+Issues:
+1. Do not have mechanism to identify citizenship of user. 
+2. If Russia user creates an account, he/she should not wait to use online services.
+What is cost effective solution?
+
+SDE-2
+Brain Teasers
+EndOfQuestion
+
+---Question :216---
+Hi.For the online assessment test - Debugging , which programming languages code snippet I can expect?Thank you !
+
+Amazon
+Software Developer
+Debugging
+EndOfQuestion
+
+---Question :217---
+You have table defining meta data for all tables in your system
+
+col name | table name | primary key| foreign key|
+
+
+design a algorithm to generate sql dynamically based on column selection.
+
+xyz
+Backend Developer
+Algorithm
+EndOfQuestion
+
+---Question :218---
+We have board represented using matrix (i.e Board[N][N], 
+We have right angle triangle with same height, base and area of four types. 
+Types can be distinguish using points 
+i.e {1,0,1,1}, {1,1,0,1} etc which makes a right angle triangle in one block. We have to identify total count each triangle type. There are multiple cases 
+1. Include every possible triangle shape one can overlap with other triangle cell 
+2. Include every possible triangle shape without overlap with other triangle cell 
+3. Include adjacent triangles only (exclude triangle which is adjacent to two triangles ) 
+4.Include adjacent triangles only 
+i.e : Input pattern 
+110011
+100101
+110110
+000001
+We see one triangle is getting formed a[0][0],a[0][1] and a[1],[0]
+Triangles are adjacent if vertical and horizontal values are one.
+
+HCL
+Intern
+Algorithm
+EndOfQuestion
+
+---Question :219---
+Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.(Using DP)
+
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :220---
+Using the following:
+
+public static Func&lt;int, int&gt; Y(Func&lt;Func&lt;int, int&gt;, Func&lt;int, int&gt;&gt; f)
+{
+ return x =&gt; f(Y(f))(x);
+}
+
+Create a Func&lt;int, int&gt; which computes the n-th fibonacci number using only anonymous lambdas.
+
+Jet
+Backend Developer
+Functional Programming
+EndOfQuestion
+
+---Question :221---
+-How would you design Google Analytics (there are huge number of users and we need real-time analysis report)?
+-How would you detect trends?
+
+Google
+Software Engineer
+Large Scale Computing
+EndOfQuestion
+
+---Question :222---
+You have 10^9 user, 10^3 websites that users are subscribed to and 2000 servers. Some users will unsubscribe from certain websites. How would you architect this system to be scalable and performant?
+
+Google
+SDE1
+System Design
+EndOfQuestion
+
+---Question :223---
+This is was asked in Amazon SDE online test from Hacker rank.
+ Initech is a company which has CEO Bill and a hierarchy of employees. Employees can have a list of other employees reporting to them, which can themselves have reports, and so on. An employee with at least one report is called a manager.
+
+Please implement the closestCommonManager method to find the closest manager (i.e. farthest from the CEO) to two employees. You may assume that all employees eventually report up to the CEO.
+
+Tree structure:
+Bill -&gt; Dom, Samir, Michael
+Dom -&gt; Bob, Peter, Porter
+Peter -&gt; Milton, Nina
+
+Sample Data:
+CEO Bill has 3 employees reporting to him: {Dom, Samir, Michael}
+Dom has three reports { Peter, Bob, Porter}
+Samir has no reports {}
+Michael has no reports {}
+Peter has 2 reports {Milton, Nina}
+Bob has no reports {}
+Porter has no reports {}
+Milton has no reports {}
+Nina has no reports {}
+
+Sample calls:
+closestCommonManager(Milton, Nina) = Peter
+closestCommonManager(Nina, Porter) = Dom
+closestCommonManager(Nina, Samir) = Bill
+closestCommonManager(Peter, Nina) = Peter
+
+Amazon
+SDE1
+Data Structures
+EndOfQuestion
+
+---Question :224---
+Given a sorted array of size N of int32, find an element that repeats &gt; ceil(N / 2) times. Your algo may assume that there will be always such element. Space/time O(1).
+Follow up question: Now element repeats &gt; ceil(N / 4) times. Space/time O(1)
+
+Google
+Intern
+EndOfQuestion
+
+---Question :225---
+Given a non-directed, strongly connected graph where the node values are letters of the alphabet, write an algorithm that prints out all possible permutations of strings. What is this called?
+For example:
+V = A,B,C
+Printout
+ABC
+ACB
+BAC
+BCA
+CAB
+CBA
+BAC etc.
+
+IBM
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :226---
+Given a sorted integer array, write a method that builds a balanced binary search tree. What is the runtime complexity?
+Hint: Recursion.
+Follow-up: Non-recursive solution
+
+IBM
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :227---
+Given a list of tuples {x, y, x' } that describe histograms on the X/Y axis, such that X is the X coordinate, Y is the Y coordinate, and X' is the distance from X, write a function that draws the skyline of these tuples.
+For example:
+{3, 2, 4} , {4,5,3} will give the following points:
+{3,0} - trivial
+{3,2} - trivial
+{4,5} -calculated
+{7,0} -if list is done.
+
+You cannot assume that the tuples are sorted. Provide runtime analysis.
+
+Amazon
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :228---
+Given a list of integers of size n, write a method to write all permutations the list; do this in O(1) space
+Hint: No recursion.
+
+Amazon
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :229---
+Given a string that represents an integer with no upper bound (billions, trillions, etc..), write a function "convert" that returns the integer value of the string. For example: "1000322" returns 1000322.Try to do this in O(1) space, and O(n) time. Better if possible.
+
+Microsoft
+SDE-3
+Algorithm
+EndOfQuestion
+
+---Question :230---
+Given a binary tree, write a function LCA that returns the least common ancestor of two nodes. This is not a BST. Try not to use parent pointers in the custom Node class.
+Iterative solution takes O(1) space, recursive solution takes O(n) space.
+
+Microsoft
+SDE-3
+EndOfQuestion
+
+---Question :231---
+Given a list of IP address correspondences, such as 
+IP1 = IP2
+IP3 = IP4
+IP3 = IP2
+IP5 = IP6
+IP7 = IP8 
+etc.
+Return a list of unique IP addresses. In this case
+IP1, IP5, IP7
+Consider IPs as Strings or any other data type.
+
+Microsoft
+SDE-3
+Algorithm
+EndOfQuestion
+
+---Question :232---
+Given a list of integers (array or list), write a function that returns true if the list can be split into two lists that have an equal sum.
+Example: {4,2,2,0,-1, 1} returns true 
+{4}, {2,2,0,-1,1}
+and {3,3,1} returns false.
+
+Hints by interviewer:
+- Complexity is 2^n
+
+Microsoft
+SDE-3
+Algorithm
+EndOfQuestion
+
+---Question :233---
+-
+
+Google
+Jr. Software Engineer
+C
+EndOfQuestion
+
+---Question :234---
+How can we find the missing numbers if they are more than 1 in array ??
+Also can we generalize it for 'k' elements?
+Example: {1,2,3,5,7}
+output: 4,6
+
+Algorithm
+EndOfQuestion
+
+---Question :235---
+A is [4,3,2,0,1]
+B is [E,D,C,A,B]
+
+Constant space and O(n) Sorting such that
+
+A is [0,1,2,3,4,]
+B is [A,B,C,D,E]
+
+JP Morgan
+freshers
+Algorithm
+EndOfQuestion
+
+---Question :236---
+Merge two sorted singly linked lists into one sorted singly linked list. Allocate no extra node.
+
+Arista Networks
+Software Engineer
+Data Structures
+Linked Lists
+EndOfQuestion
+
+---Question :237---
+Suppose a nxn chessboard has two diagonally opposite corners removed, leaving n^2-2 squares. Is it possible to place (n^2-2)/2 dominoes of size 2x1 so as to cover all of these squares?
+
+Arista Networks
+Software Engineer
+EndOfQuestion
+
+---Question :238---
+Given an array of n integers which contains integers from 0 to n-1, with any of these integers appearing any number of times. Find the repeating integers in O(n).
+
+Arista Networks
+Software Engineer
+EndOfQuestion
+
+---Question :239---
+Program to check whether 2 rectangles in a 2 D plane overlap or not.
+
+Arista Networks
+Software Engineer
+General Questions and Comments
+EndOfQuestion
+
+---Question :240---
+Given a sorted integer array. Convert it to a balanced BST (Size of array is given)
+
+Arista Networks
+Software Engineer
+Data Structures
+Trees and Graphs
+EndOfQuestion
+
+---Question :241---
+Allocate a 2-D array of size m*n using malloc(). The array should be accessible as a[i][j].
+
+Arista Networks
+Software Engineer
+Arrays
+C
+Data Structures
+Matrix
+EndOfQuestion
+
+---Question :242---
+dsgfd
+
+X
+Jr. Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :243---
+Description:
+
+ A company, create classes for each type of employee and calculate working hours and wages/salaries that will be received.
+
+ Example General Manager, IT Manager, Accounting, Marketing, Finance, Procurement Managers
+
+ Manager and Higher level employees wont have overtime wage. Overtime wage is 1.5 times higher than the usual wage. Working hours are limited as 8 hours. More than this limit will be considered as overtime.
+
+Inputs:
+
+Employee Name, Surname
+
+Title/Role
+
+Salary
+
+Daily Working hour
+
+Outputs:
+
+ Date
+
+ Employee Name, Surname
+
+ Daily Wage.
+
+Amazon
+SDE-2
+C++
+EndOfQuestion
+
+---Question :244---
+Hello Friends,
+Can anyone help me about ThoughtWorks Quality Analyst Questions ?
+
+Thanks
+
+EndOfQuestion
+
+---Question :245---
+What are semantic tags in HTML?
+
+Auto NInja
+Front-end Software Engineer
+EndOfQuestion
+
+---Question :246---
+What are services in Angular.js?
+
+Auto NInja
+Front-end Software Engineer
+JavaScript
+EndOfQuestion
+
+---Question :247---
+What is difference between Ember and Angular.js?
+
+Auto NInja
+Front-end Software Engineer
+EndOfQuestion
+
+---Question :248---
+What are inline elements? What are block elements in HTML?
+
+Auto NInja
+Front-end Software Engineer
+Web
+EndOfQuestion
+
+---Question :249---
+What is Dependency Injection in Angular.js?
+
+Auto NInja
+Front-end Software Engineer
+JavaScript
+EndOfQuestion
+
+---Question :250---
+convert a number m to n with minimum operations. The operations allowed were -1 and *2.
+For Eg : 4 and 6. Answer is 2.
+1st operation : -1 -&gt; 4-1 = 3.
+2nd operation : * -&gt; 3 * 2 =6.
+
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :251---
+There is a car company and customers ask the car company for 'n' cars for start - end time intervals.
+
+A company can get multiples request for the cars, find the minimum numbers of cars that the car company should have, to satisfy all the requirement for the given list of time intervals:
+
+Eg : 
+
+for interval 1-3 cars needed are 2
+for interval 2 -3 cars needed are 3
+for intervals 3-4 cars needed are 4
+for intervals 5-6 cars needed are 2
+
+Answer is 5 for above, as we there is overlap between interval 1-3 &amp; 2-3
+
+Flipkart
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :252---
+int main() {
+ int google = ?? 
+ 
+ if ( google == -google)
+ return 1; 
+
+ return 0;
+}
+
+There are two answers, the first being zero. What's the second value?
+
+C
+EndOfQuestion
+
+---Question :253---
+How many Fibonacci numbers exists less than a given number n.Can you find a function in terms of n , to get the number of fibonacci number less than n.
+Example : n = 6
+ Answer: 6 as (0, 1, 1, 2, 3, 5)
+
+Google
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :254---
+There are 2 threads . How you will synchronize in linux so that 1 thread prints even numbers and other thread prints odd numbers
+hint: condition variable
+
+HCL
+Developer Program Engineer
+Threads
+EndOfQuestion
+
+---Question :255---
+I'm not able to think, how to code any questions.
+How improve myself for coding ??
+
+EndOfQuestion
+
+---Question :256---
+ATM has x currency notes of 100 rupee,y currency notes of 500 rupee,and z currency notes of 1000 rupee notes.
+
+Customer wants to withdraw n amount at any given time. as per bank rules,Customer can not withdraw more than INR.40000/-per transaction. 
+
+If ATM is running out of cash it should throw a message that insufficient Balance, Kindly enter multiple of m value of currency note.where m&gt;=4000 and m&lt;=total number of cash available in ATM.
+
+An intelligent banker has found in customer survey that customer prefers to receive more than 5 currency notes 100 rupee,more than 2 currency noes of 500 rupee and rest of the currency notes is of 1000 rupee where ever possible.
+
+If amount is less than 500,customer will receive 100 rupee currency notes. Bankers goal is to tender the minimum number of currency notes to save customer waiting time and increase customer satisfaction by following customer survey.Banker has hired you to program ATM dissaptch function.
+ 
+FOR Example: Lets ATM has 200 currency notes of 100 rupees,90 currency notes of 500 rupee and 50 currency notes of 1000 rupee.Customer has placed a withdrawal request of Rs 22,200.00. Dispatch function has given him 7 currency notes of 100,3 currency notes of 500 and 20 currency notes of 1000 rupee
+
+Adobe
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :257---
+Why to use singleton class? What is the advantage you get by restricting single object of a class.
+eg.If you are using a logger class, if there are many objects of the class and you want to print that sequentially, you can achieve this with mutex. Why use singleton?
+write code for thread safe singleton.
+
+HCL
+Developer Program Engineer
+EndOfQuestion
+
+---Question :258---
+write commands for -
+1&gt;list processes
+2&gt;remove 2lines from file
+3&gt;there are multiple hirarachical direcories. Change the file extension all .c files to .cpp
+4&gt;chang time stamp of a file
+5&gt; run a script at a particular time
+
+HCL
+Developer Program Engineer
+EndOfQuestion
+
+---Question :259---
+I have a photo storage service. The actual photos are present in some storage and the index of these photos is present at some other place. The index is huge, say trillions of photos. Design the class for index node of each photo (with attributes like name*, date*, size*, accesscontrol, camera details, shot details, etc) such that 1. It is serializable. 2. For faster processing, I am interested in first 3 attributes. When deserializing the bytes of object, parse these 3 attributes i.e. instead of deserializing whole class, deserialize only part of the class (members marked by*), other members of class should be deserialized on demand with another call.
+How will you test the performance of your serialization/ deserialization?
+
+Amazon
+SDE-2
+Java
+EndOfQuestion
+
+---Question :260---
+Given a decimal number, write a function that returns its negabinary (i.e. negative 2-base) representation as a string.
+
+Facebook
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :261---
+there is a chess board of dimension n X n. You are given with 2 squares on that board S(x1,y1) ;M(x2,y2). S is a fixed point. M can move diagonally. it can move any number of steps or jumps in 1 move . Find the minimum number of moves M needs to reach S
+
+Amazon
+SDE-2
+Coding
+EndOfQuestion
+
+---Question :262---
+there is a news publishing/subscribing product of Amazon where electronic contents are collected from owners like newspaper, magazines. Customer is using kindle. Design how customer will get the content when his system kindle connects to net. how to send the contents to device?
+
+Amazon
+SDE-2
+Software Design
+EndOfQuestion
+
+---Question :263---
+A delivery boy wants to deliver some items on his way from office to home. You need to find the optimized path he should take from office to home and deliver all his deliveries on his way.
+
+It is 101 X 101 grid. Office, home , delivery points are represented via coordinated (x,y) where 0 &lt;= x &lt;= 100, 0 &lt;= y &lt;= 100. 
+
+distance between two points (x1, y1) and (x2,y2) is computed as |x1 - x2| + |y1 - y2|
+
+You need to find the optimized path from office to home covering all delivery locations and return the optimized path length as output.
+
+You will be given the input in the 2 lines
+
+first line - N (no. of delivery locations)
+second line - (x,y) coordinates of office, followed by home, followed by all N delivery locations.
+
+3
+0 0 100 100 20 30 50 50 70 70
+
+output: The length of the optimized path taken.
+
+For above input, the output is 200
+
+Samsung
+Software Developer
+Problem Solving
+EndOfQuestion
+
+---Question :264---
+Given a number (200), compare it to four variables (E.G A,B,C,D) and return true if they are all equal to the given number. 
+
+Do this in the most efficient way, and if possible without if statements.
+
+Amazon
+Computer Scientist
+C
+EndOfQuestion
+
+---Question :265---
+I have an array with 60% sorted and 40% unsorted, which algorithm will give fastest accurate sorted output in C? And for Linked list which sorting algorithm suited?
+
+Kony India Private Limited
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :266---
+How can I find factorial of positive integers using structures in C?
+
+Kony India Private Limited
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :267---
+Suppose you have ten million data in a array where each data should be 15 in length. Some of the data length changed somehow. How do you find out which data are distorted.
+
+Software Developer
+EndOfQuestion
+
+---Question :268---
+How can I count frequencies of all elements of an array?
+
+Algorithm
+EndOfQuestion
+
+---Question :269---
+Assume there are 10000 stars in sky, how would you find which star is closest to the earth? in C
+
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :270---
+This was a design question, discuss data structures/ complexities, etc.
+There is a huge HashMap (Key-Value store). This is present in storage, dont worry about the Storage. 
+1. Build its index. Distributed system for indexing. Different cases: Key is a String/ Double/ complex structure, etc. How will you replicate this index structure - whole index is replicated/ parts of index are replicated.
+2. How will you synchronize access (read/ write) if there are multiple replicas of the index partition. What if the actual Storage partition also has replicas.
+
+Amazon
+SDE-2
+Distributed Computing
+EndOfQuestion
+
+---Question :271---
+You have a function f1() that generates 0 or 1 with the equal probability. Write a function f200() that generates a number between 1 and 200 with equal probability.
+
+Big Fish
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :272---
+find the no of possible patterns in android lock screen. write a program to count them.
+
+Google
+EndOfQuestion
+
+---Question :273---
+How do you design a Columnar database?
+
+EndOfQuestion
+
+---Question :274---
+Given 4 teams and 3 gamedays, create an algorithm such that each team plays another team every gameday and by the end of the 3 game days each team should have played one game with every other team.
+
+Microsoft
+Software Engineer
+Algorithm
+Problem Solving
+EndOfQuestion
+
+---Question :275---
+Given an array of ints (positive numbers) find out the index that balances the array. If no such index exists, return the index that minimizes the difference.
+
+How can you do it by touching each element only once.
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :276---
+Insert an int into a circular single linked list. 
+
+Discuss corner cases: what if the element to be inserted is the smallest, how can we speed things up (e.g. if the method is called multiple times you can keep track of the "last"/greatest element).
+
+Thorough testing discussions.
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :277---
+How to sort a very large array (&gt;50GB int array) stored on disk given that you have a 200MB RAM memory.
+
+Discussions on this: test it, corner cases, etc.
+
+Microsoft
+Software Engineer
+EndOfQuestion
+
+---Question :278---
+Given a number (integer) as a string turn in into a number:
+
+E.g. "One million two hundreds thousands fifty seven" =&gt; shoud return 1200057.
+
+How to model it and how to test it? What data structures would you use. Deep testing (corner cases)
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :279---
+Given a number N, write all possible sums of consecutive numbers that add up to N.
+
+That is:
+return all pairs (a, k) such that a+(a+1)+...+(a+k)=n
+
+After that:
+1. what if N is negative or a is negative;
+2. what if N is real and the possible implications of this
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :280---
+Create a program to compute nth Fibonacci number in O(1) space and faster than O(n) time.
+(Target complexity is O(logn)).
+
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :281---
+How would you convert a row number on Excel to a label? Rows are labeled alphabetically with letters added on once the alphabet has been fully used. (Ex. row # 5 is labeled E, row # 27 is labeled AA, row # 28 is AB, row # 53 is BA and so forth) What would the row label be for a large number, such as 1500?
+
+Microsoft
+Software Engineer
+Problem Solving
+EndOfQuestion
+
+---Question :282---
+i need to write code that union two nodes from graph G Vi ,Vj 
+then new node will generated Vm = ViUVj
+
+Amazon
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :283---
+Given a number N and a number K, write a program to find maximum value of N%i where 1&lt;=i&lt;=K.
+What is wrong with below solution:
+
+EndOfQuestion
+
+---Question :284---
+Given an array arr[] of size n. Three elements arr[i], arr[j] and arr[k] form an inversion of size 3 if a[i] &gt; a[j] &gt;a[k] and i &lt; j &lt; k. Find total number of inversions of size 3
+
+
+e.g.
+
+Input: 23, 10, 24, 7, 12, 19
+Ans: 23, 10, 7
+
+Deshaw Inc
+Applications Developer
+EndOfQuestion
+
+---Question :285---
+Design a class in such way that all the objects created have the same state(synced).
+
+(i.e)For example,
+
+ We have a TextBox class, and instantiated in 3 places. when the user types any text in any of the
+ textboxes other textboxes also should reflect the same text.
+
+Capgemini
+Senior Software Development Engineer
+EndOfQuestion
+
+---Question :286---
+Design a datastructure which stores employee details Name,PhoneNumber,Addres and the employee details are(all the 3 given above) fetched when the user searches the data structure by Name or phone number
+
+ThoughtWorks
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :287---
+Counting the number of digits before and after the decimal point without using string ( using double data type).
+
+Software Developer
+C
+EndOfQuestion
+
+---Question :288---
+Given a forest of balanced binary trees and two nodes, n1 and n2, find the closest common parent of n1 and n2. Nodes have parameters "parent", "left" and "right", and you cannot access the values of the nodes. If n1 and n2 are not on the same tree, return NULL.
+
+Try to do this in O(log(n)) time and O(1) space.
+
+Facebook
+Intern
+Trees and Graphs
+EndOfQuestion
+
+---Question :289---
+Write a program to sort the numbers using singly linked list in O(nlogn) time complexity and O(1) space complexity?
+
+Software Engineer Intern
+EndOfQuestion
+
+---Question :290---
+Given an undirected graph and a node, modify the graph into a directed graph such that, any path leads to one particular node.
+
+Facebook
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :291---
+Find if a given binary tree has duplicate sub trees or not.
+(Two leaf nodes of a parent do not count as subtree)
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :292---
+Image an airport with the control tower having a constantly rotating radar scanning for airplanes. The radar's coordinates in the 2-d plane are (0,0). The radar has an API: void scan(const Plane &amp;P) that is called periodically whenever the radar detects a plane. You can imagine that the Plane structure has x,y coordinates for that plane. You should fill in the function Scan, such that at any given time you are able to return the 100 closest planes to the tower (0,0).
+
+Bloomberg LP
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :293---
+Find missing element in the A.P.
+
+Amazon
+SDET
+Algorithm
+EndOfQuestion
+
+---Question :294---
+Implement the power function with o(logN) time complexity and O(1) space
+
+Amazon
+SDET
+Algorithm
+EndOfQuestion
+
+---Question :295---
+MultiThreading: How to process trades paralelly, and if there are any trades that are modified need to process then in a sequential way.
+
+For E.g. if there are 10 trades, of which some trades are like created and then immediately modified before being processed, then need to process the trades parallelly, and for those trades that are created and modifed, need to process them sequentially.
+
+Applications Developer
+EndOfQuestion
+
+---Question :296---
+create palindrome in javascript, by appending a minimum set of characters at the end.. eg. test =&gt; testset
+
+Amazon
+Software Engineer
+EndOfQuestion
+
+---Question :297---
+Given an array of integers, rearrange the array in such a way that the first element is first maximum and second element is first minimum.
+Input : {1, 2, 3, 4, 5, 6, 7}
+ Output : {7, 1, 6, 2, 5, 3, 4}
+
+AMD
+Analyst
+EndOfQuestion
+
+---Question :298---
+<code></code>
+
+SDE-2
+Coding
+EndOfQuestion
+
+---Question :299---
+Have you ever faced a time when you felt a particlar code base or product was not ready to be released, if so what did you do and how did you work with the development team or stakeholder to make sure your views were heard
+
+Google
+Developer Advocate
+EndOfQuestion
+
+---Question :300---
+Given a log file:
+some garbage...from:123.54,78.21...more garbage..to:56,82,124.54...more
+some more garbage...from:11.54,45.84...garbage..to:115.87,98.65
+...
+
+Write a program or shell script to return pairs of (from, to) coordinates.
+
+Assumption: these coordinates will always appear in sequence: from ... to... from ... to...
+But these from - to pair may or may not be on same line.
+
+Amazon
+SDE-2
+shell scripting
+EndOfQuestion
+
+---Question :301---
+What do you feel is the most important thing in keeping good relations within a developer community.
+
+Google
+Developer Advocate
+Business Question
+EndOfQuestion
+
+---Question :302---
+How would you scale a developer community from 10 to 1000.
+
+I asked a followup "In what capacity" the interviewer responded with "just how would you scale it"
+
+Google
+Developer Advocate
+EndOfQuestion
+
+---Question :303---
+Given an array of five integers that represents a poker hand e.g. [2,2,2,3,3] return the value of the hand, valid values are only "pair","two pairs","three of a kind","full house","four of a kind" we don't have to worry about straight, flush or straight flush.
+
+My approach was to have a fixed array of 13 elements (each element represents one possible value of the hand) this array will keep the occurrence of each value of our hand and after we have all the values we just iterate this array and multiply all the values by itself and adding them to get a unique result.
+
+For example if we have [2,2,3,4,5] our fixed array will have a "2" and three "1" so our result will be "2*2+1*1+1*1+1*1",the result will be 7, so all the possible hands will have unique values, if we find a 7 as a result we will know it is a pair, a 9 will be two pairs, a 11 will be three of a kind, 13 will be a full house and 17 will be a four of a kind.
+
+This algorithm is O(1) both in complexity and space but the interviewer didn't like it too much.
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :304---
+Write a function that will operate on a C-string and convert all instances of "AB" to "C" without using a second string for temporary storage. Use the following function signature: 
+
+ void translate(char *str) 
+
+ So for example: 
+
+ char astring[] = "helloABworld"; 
+
+ translate(astring); 
+
+ // Now astring holds "helloCworld"; 
+
+ Your function should handle strings of arbitrary length.
+
+N/A
+xyz
+C
+EndOfQuestion
+
+---Question :305---
+Assume that garbage collector is not there in place or you are implementing a garbage collector for C++. Write the design and sample code for garbage collector implementation 
+We have 3 classed and Class A, B, C. object of A uses object B and Object of B uses Object of C. How can we track the object existence and clear memory ?
+Answer which I suggested : Write a tree (or Graph?)data structure (Garbage collector is a container class holds this data structure) where each node has multiple paths to reach. If any of the node is not having a path to reach then we can clean that memory. This way the garbage collection will work. Please suggest your design as well.
+
+VMWare Inc
+Member Technical Staff
+Algorithm
+EndOfQuestion
+
+---Question :306---
+Given an array, find the first element that appears an even number of times.
+
+Amazon
+Applications Developer
+EndOfQuestion
+
+---Question :307---
+Given a circular linked list. Find the longest sequence of numbers, where a sequence starts with any number, for example 3, and ends when you see that number again,another 3. 
+
+Imagine the circular linked list 
+3 8 9 7 2 1 3 4 6 [3] same as first element .i.e three. 
+The longest sequence would be 3 8 9 7 2 1 , the other candidate being 3 4 6 
+
+Finding for instance,starting at 8 and getting to the same 8 wouldn't count as a valid sequence.
+
+Amazon
+Applications Developer
+EndOfQuestion
+
+---Question :308---
+Given a 8 by 8 matrix, find all possible paths , moving one cell downwards or on cell to the right,(one cell per movement ) from cell 0,0 , to cell 7,7
+
+Amazon
+Applications Developer
+EndOfQuestion
+
+---Question :309---
+Find the first non-repeated element in an unsorted array.
+
+Amazon
+Applications Developer
+EndOfQuestion
+
+---Question :310---
+Given a squared matrix, shift all elements 1 place to the right in circular fashion.
+
+Amazon
+Applications Developer
+EndOfQuestion
+
+---Question :311---
+What is the maximum leads that can be generated from ad budget of 30k. Below is the table provided:
+
+Budget	10000	20000	30000	40000	50000
+Display Leads	500	1000	1200	1500	1700
+SEO Leads	1000	1500	1700	1900	2500
+
+Komli Media
+xyz
+Algorithm
+EndOfQuestion
+
+---Question :312---
+Assume that const_cast is not in place for C++, can you please write the code to do such casting?
+
+Symantec
+Senior Software Development Engineer
+C++
+EndOfQuestion
+
+---Question :313---
+Build a simple binary tree and run a search using C#
+
+Eatclub
+Consultant
+EndOfQuestion
+
+---Question :314---
+In C#, Given a list of numbers [4,8,20,11,12,18,50,10,11] and divided in sections of 3. Reverse each section without using a another array.
+
+Eatclub
+Consultant
+EndOfQuestion
+
+---Question :315---
+Given integer k and a subset S of set {0, 1, 2, ..., 2^k - 1}
+Return the count of pairs (a, b) where a and b are from S and (a &lt; b) and (a &amp; b == a)
+&amp; here is bit-wise and.
+Do it faster than O((2^k)^2), assume k &lt;= 16
+
+Example:
+0b111
+0b101
+0b010
+Answer: 2
+
+0b110
+0b011
+0b101
+Answer: 0
+
+Facebook
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :316---
+Given an array of words (i.e. ["ABCW", "BAZ", "FOO", "BAR", "XTFN", "ABCDEF"]), find the max value of length(s) * length(t), where s and t are words from the array. The catch here is that the two words cannot share any characters.
+
+Assume that there are many words in the array (N words) and average length of word is M.
+
+Answer for the example above is "ABCW" and "XTFN" as the result is 4 * 4 = 12. 
+
+"ABCW" and "ABCDEF" do not work since they share similar characters.
+
+Google
+Software Engineer
+EndOfQuestion
+
+---Question :317---
+For anyone who's using C++ in interviews - 
+
+How do you handle questions which require the use of HashMaps? Do you use std::unordered_map? It's API, especially the use of iterators, can get rather lengthy to write out on a whiteboard. What's your advice?
+
+EndOfQuestion
+
+---Question :318---
+You have a BST and you need to assign an appropriate value to neighbor of all nodes (Explained in below example)
+ Node Structure
+
+Amazon
+SDE-2
+Trees and Graphs
+EndOfQuestion
+
+---Question :319---
+Given an array of stock values of a company. Find out the time when a user would have bought the stock and sold the sock. Basically find the maximum positive difference of any two given elements in an array?
+
+Amazon
+SDE-2
+Arrays
+EndOfQuestion
+
+---Question :320---
+Find the n-th smallest multiple given a set of numbers. For example, set = {4, 6}, n = 6:
+
+The sequence is:
+
+4, 6, 8, 12, 16, 18, etc...
+
+Answer is 18
+
+Google
+Algorithm
+EndOfQuestion
+
+---Question :321---
+We have a long string. We label some substrings with tags. 
+
+- A tag entry is [startIndex, endIndex, tag].
+- Query: 1 or more tags
+- Output: all blocks/ranges with all queried tags.
+
+Example tag entries:
+
+ [23, 72, 0]	// label [23, 72) with tag 0
+ [34, 53, 1]	// label [34, 53) with tag 1
+ [100, 128, 0]
+
+Query and Output:
+
+ 0 =&gt; [23, 72], [100, 128]
+ 0,1 =&gt; [34,53]	// [34, 53) matches both tag 0 and 1
+
+Give an efficient algorithm. Please describe your algorithm before posting code.
+
+**Edit**: To add some difficulties, partial overlap is treated the same as full overlap, ONLY the overlapped part matches both tags. E.g. if we have entries:
+
+ [23, 72, 0]	// label [23, 72) with tag 0
+ [10, 53, 1]	// label [34, 53) with tag 1
+
+Query and Output:
+ 0,1 =&gt; [23,53]	// [23, 53) matches both tag 0 and 1
+
+Minor detials: Note in the comments we used open range on the right, i.e. if the string named "str", [23, 72, 0] includes str[23] but NOT str[72]; and there's no overlap between the following entries:
+[23, 72, 0]
+[10, 23, 0]
+
+Google
+Senior Software Development Engineer
+Algorithm
+EndOfQuestion
+
+---Question :322---
+Design Interprocess Singleton class in C++
+
+When multiple instance of singleton.exe is running, same memory(singleton instance) should be shared among all the process
+
+Texas Instruments
+Tech Lead
+Algorithm
+EndOfQuestion
+
+---Question :323---
+How to find middle element in a linked list without knowing the length of the linked list
+
+unknown
+Applications Developer
+Data Structures
+EndOfQuestion
+
+---Question :324---
+Write a program to display 1st, 2nd and 4th multiples of 7which also gives the remainder 0 (ZERO) when it divided by 2,3,4,5 and 6.
+
+PRATIAN
+Java Developer
+C
+EndOfQuestion
+
+---Question :325---
+Write a program to display the series 1,2,6,15,31,56,......,N
+
+PRATIAN
+Java Developer
+C
+EndOfQuestion
+
+---Question :326---
+Given a binary tree print it in inward spiral order i.e first print level 1, then level n, then level 2, then n-1 and so on.
+
+For Ex - 
+ 				1
+ 				2		 3
+			4 5 6 7
+ 8 9 10 11 12 13 14 15
+
+Print- 1 15 14 13 12 11 10 9 8 2 3 7 6 5 4
+
+Follow up question - Extend the algorithm to n-ary tree.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :327---
+build BST from sorted array of integers
+
+Algorithm
+EndOfQuestion
+
+---Question :328---
+Write 2 functions to serialize and deserialize an array of strings. strings can contain any unicode character. Do not worry about string overflow.
+
+Google
+Developer Program Engineer
+String Manipulation
+EndOfQuestion
+
+---Question :329---
+Two files are there file1.txt, file2.txt - both have some random names.
+
+Like,
+file1.txt file2.txt
+---------- -----------
+Raja Uthaya
+Antony Karthi
+Christopher Raja
+Manickam Antony
+Veeramani
+
+Assume file1.txt can have more names(whole database of names), file2.txt has some selected names
+
+You have to display what are all the mismatching items from file1.txt
+
+Need efficient algorithm to do this
+
+Honeywell
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :330---
+Given string say ABCGRETCABCG and substring length let us take length as 3, find the count of possible substrings, for example in above string ABC =&gt; 2 and BCG =&gt; 2 , where CGR and other 3 word length substrings has a count of 1.
+
+Linkedin
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :331---
+Given a set of numbers find if a triplet can form a triangle a+b &gt; c , b+c &gt; a and c+a &gt; b. The result to display all possible combinations of triplets. [ 10 5 3 4 7 1] [5,3,4 ] is one possible triplet and there can be many more.
+
+Linkedin
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :332---
+Given a 2d array (say n*m), visit all elements faster than linear time (i.e. faster than m*n). (Assume not too big array. i.e. fits in memory etc.etc)
+I gave a solution: 4 pointers that start from 4 ends ((0,0), (0,n), (m,0), (m,n)) and walk the edges. Once done next inner rows and columns (i.e. (1,1), (1,n-1), (m-1,1), (m-1,n-1)). Easier to implement with just the indices and we can say 4 times faster. Another solution I gave was to use multithreading. He said no multithreading. But the interviewer was not convinced and he gave me a hint to use recursion (?). Couldn't get the solution that he wanted.
+
+Microsoft
+Site Reliability Engineer
+EndOfQuestion
+
+---Question :333---
+how to get the dynamic breadcrumb?
+When there is a longer breadcrumb, it should show three dots in the middle of root folder and the current folder.
+
+Ex:
+Alldata &gt; Folder1 &gt; folder2 &gt; folder3
+
+It should display like
+
+Alldata &gt; . . . &gt; folder3
+
+Please give me code for this...
+
+Web
+EndOfQuestion
+
+---Question :334---
+Write a C program to calculate multiplication between two numbers with repetitive additions
+
+C
+EndOfQuestion
+
+---Question :335---
+Write a C program to find given number is even or odd without using any control structures like conditional statements or loops.
+
+C
+EndOfQuestion
+
+---Question :336---
+This was a javascript interview.
+There are two arrays:
+ var arr1 = [2,"undefined",7,"undefined", 10,"undefined","undefiend"];
+ var arr2 = [5,8,12,14];
+
+They need to be merged such that arr1=[2,5,7,8,10,12,14]
+
+This needs to be done in place and in constant time.
+
+Developer Program Engineer
+Algorithm
+EndOfQuestion
+
+---Question :337---
+Find the highest time difference in the below log file Using single Unix command
+
+STARTTIME:2015-12-01 04:13:15
+ENDTIME :2015-12-01 04:14:16
+----------------------------------------------
+----------------------------------------------
+STARTTIME:2015-12-01 04:11:15
+ENDTIME :2015-12-01 04:11:17
+----------------------------------------------
+----------------------------------------------
+STARTTIME:2015-12-01 04:12:15
+ENDTIME :2015-12-01 04:15:15
+----------------------------------------------
+----------------------------------------------
+STARTTIME:2015-12-01 04:10:10
+ENDTIME :2015-12-01 04:10:11
+----------------------------------------------
+----------------------------------------------
+
+Amazon
+Development Support Engineer
+Unix
+EndOfQuestion
+
+---Question :338---
+Given a tree. 
+Each node is of type:
+
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :339---
+I was asked this question in an algorithm interview. Since my coding language was javascript I was asked to implement a hashmap n white board with collision detection.
+I guess they were looking for a hashing algorithm that will create a linked list in case of a collision and also an equals method
+
+StartUp
+Developer Program Engineer
+Algorithm
+EndOfQuestion
+
+---Question :340---
+How do you create your own garbage collector? How do you find whether objects in memory are orphans in order to purge them?
+
+Citrix System Inc
+Software Engineer / Developer
+Java
+EndOfQuestion
+
+---Question :341---
+What is good or bad about 
+&lt;a href="javascript:void(0)" onclick="doSomething()"&gt; Click me &lt;/a&gt;
+Does anybody have any idea on this?
+
+EndOfQuestion
+
+---Question :342---
+You know result of a soccer match, print all the possible ways that this game ends up with this result.
+
+Example: final score 1 - 1:
+
+0 - 0 
+0 - 1
+1 - 1
+
+0 - 0
+1 - 0
+1 - 1
+
+Another example if the final score is 2 - 3 there are many possibilities for reaching to that score:
+
+2 - 3
+
+0 - 0
+1 - 0
+2 - 0
+2 - 1
+2 - 2
+2 - 3
+
+0 - 0
+1 - 0
+1 - 1
+1 - 2
+2 - 2
+2 - 3
+
+0 - 0
+0 - 1
+0 - 2
+0 - 3
+...
+
+unknown
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :343---
+Using Javascript write code to detect and remove a loop from a cylic linked list
+
+Developer Program Engineer
+Algorithm
+EndOfQuestion
+
+---Question :344---
+A frog has to cross the river from one end to another end. river has stones in between randomly where frog can jump. frog can't jump into the river. problem is that will frog ever reach other end with following conditions?
+1. frog allow to do same jump as previous jump. or
+2. frog allow to jump 1 more as previous jump. or
+3. frog allow to jump 1 less as previous jump.
+
+consider river as Boolean Array. Stone is a element in array where value is true .
+
+Microsoft
+Software Developer
+Data Structures
+EndOfQuestion
+
+---Question :345---
+A file is given which consists of 3 columns : date, city and temperature. For ex:
+Date City Temperature
+09-11-2015	 Delhi 45
+09-11-2015 Bangalore 24 
+09-11-2015 Ranchi 28
+
+and it should support following type of queries:
+1) What is the temperature of Bangalore on 9th November?
+2) Give 5 hottest/coldest cities name on 9th November
+
+You can preprocess the data and keep it in way that above query can be done in minimal time. 
+Which data structure will you use and how will you store the data?
+
+Snapdeal
+Senior Software Development Engineer
+Network
+EndOfQuestion
+
+---Question :346---
+There are two admins, trying to update product page at the same time. It happens like admin1 has updated just 2ms ago but admin2 is unaware of this and on his page he is having the previous data. Now how can we prevent admin 2 to update on description which is one step older?
+
+CGI-AMS
+Java Developer
+Web
+EndOfQuestion
+
+---Question :347---
+Given a singly connected linked list, find the largest palindrome in the list in O(1) space.
+
+Microsoft
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :348---
+2 process runs the following code. What will be the output
+
+Microsoft
+EndOfQuestion
+
+---Question :349---
+WAP in java to find duplicate element in array in one scan.
+
+xyz
+Java Developer
+Arrays
+EndOfQuestion
+
+---Question :350---
+Design Uber or Lyft like architecture keeping scale, latency and availability in mind. The design can be at macro level first, that is, major components like persistent store (SQL/NoSQL/redundant), cache, communication/messaging. The design and if time permits, details will then be discussed/challenged.
+
+Amazon
+Principal Software Engineer
+Distributed Computing
+EndOfQuestion
+
+---Question :351---
+Face to Face 
+Q4) two arrays given to you. First array contains number s. Second array contains key values.
+
+We need to find smallest window in first array which covers all second array elements.
+e.g: 
+
+Input= {6,7,1,3,2,4,5,2,3,1,2,5}
+Keys = {2,5,1}
+
+answer: from 9th index to 11th index is the smallest window.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :352---
+Face to face
+
+Q3) stream of numbers coming, get 'n' min elements at any point of time
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :353---
+Written test:
+Q2) in single linked list reverse alternative k nodes.
+
+e.g. k=3 , 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6-&gt;7-&gt;8-&gt;9-&gt;10
+3-&gt;2-&gt;1-&gt;4-&gt;5-&gt;6-&gt;9-&gt;8-&gt;7-&gt;10
+
+void reverseAlternativeKNodes(node *&amp;head, int k);
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :354---
+Written Test question:
+
+Q1) Given binary tree find largestPath size from one leaf to another leaf.
+
+int getLargestPathSize(node *root);
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :355---
+For typical word ladder problem to get the shortest path, BFS has complexity exponential to the word string length. How to optimize?
+
+Linkedin
+Algorithm
+EndOfQuestion
+
+---Question :356---
+Given a long string s and short strings t1, t2, t3 (which can have different length) find the shortest substring of s which contains t1, t2 and t3.
+
+Google
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :357---
+Given a tree, and a pointer to some node in the tree, print the left most element in the same level as that node
+
+Microsoft
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :358---
+Given an input of the calendar objects of 10,000 employees, input is a time interval T and an employee[] array, find the first interval where all the employees in the employee[] array are free for a minimum time interval T (i.e schedule the meeting)
+
+Microsoft
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :359---
+write a program to accept a value for 4x4 matrix. find the total of matrix, minimum and maximum number in matrix
+
+C
+C
+EndOfQuestion
+
+---Question :360---
+Given a binary tree, connect all node in the same level in toggle manner. 
+
+Toggle the linking every K level. For first K level, you should link to next right node. Next K you should link to next left and so on.
+
+Node structure is : 
+
+struct node
+{
+ int data;
+	struct node *left, *right, *next;
+}; 
+
+Each level next should point to the next right or left node in the level. For last node in each level, next should be NULL
+
+For ex - if K=2 then for first 2 level of tree connect next pointer from left to right and for next 2 levels connect next pointer from right to left and so on.
+
+Microsoft
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :361---
+This question is windows based subsystem design to test the design skills. We are working in a complex system which involves multiple process, DLLs, windows services which will be gets installed on our system with the project. We have to design a logger system for this project where in all the multiple subsystem can use this logger system for their logging activities . 
+Design pattern used
+ 	Statically linked or Dynamically linked?
+	How the logger functions are designed (sample signatures)
+	How we can improve performance while logging (Think of ETL tracing)
+
+Microsoft
+Member Technical Staff
+design
+EndOfQuestion
+
+---Question :362---
+Sort a set of ip address given either in ascending or descending order 
+
+char** SortIPAsc(char** pIPAddress);
+char** SortIPDesc(char** pIPAddress);
+
+Microsoft
+Member Technical Staff
+Algorithm
+EndOfQuestion
+
+---Question :363---
+Write a method that takes in a positive integer, return the number of 2s between 0 and the input number. 
+
+If the input value given is 13, it should return 2 as the number 2 and 12 are between 0 and 13.
+
+If the input value given is 21, it should return 3 as the number 2,12 and 20 are between 0 and 21.
+
+Amazon
+Jr. Software Engineer
+Java
+EndOfQuestion
+
+---Question :364---
+Implement an algorithm that takes a adjacency list and produces a topological sort of the vertices. 
+
+INPUT: 
+
+1 2
+1 3
+1 4
+3 5
+2 5
+4 5
+
+Returns:
+1 2 3 4 5
+
+Google
+Jr. Software Engineer
+Sorting
+EndOfQuestion
+
+---Question :365---
+Validate whether given string is valid JSON fromat string or not.
+
+I/P: {a:b} 
+O/P: Yes Valid JSON 
+
+I/P: {a:b, c:d} 
+O/P: Yes Valid JSON
+
+I/P: {a:b,c:{e:f}}
+O/P Yes Valid JSON
+
+I/P: {a}
+O/p: not a valid json
+
+I/P: {{a}}
+O/P: not valid JSON
+
+Google
+EndOfQuestion
+
+---Question :366---
+Reverse k batch nodes in single linked list
+I/P: k =3 , 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6-&gt;7-&gt;8-&gt;9
+O/P: 7-&gt;8-&gt;9-&gt;4-&gt;5-&gt;6-&gt;1-&gt;2-&gt;3
+
+I/P: k =3 , 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6-&gt;7-&gt;8-&gt;9-&gt;10
+O/P: 10-&gt;7-&gt;8-&gt;9-&gt;4-&gt;5-&gt;6-&gt;1-&gt;2-&gt;3
+
+EndOfQuestion
+
+---Question :367---
+write a method that takes in 2 int arrays of any size and returns an array that calculates the sum of both.
+
+for example, [1,2,3] and [2,3,4] will return [3,5,7]
+
+Or [1,2,3] and [2,3,5,5] will return [2,4,7,8] 
+
+however, if it's like [9,9,2] and [0,1,3] you need to carry the sum so it returns as [1,0,0,5]
+
+** SINGLE DIGIT ONLY
+
+Google
+Intern
+Arrays
+EndOfQuestion
+
+---Question :368---
+Imagine you have a row of numbers like below(a traiangle) .By starting at the top of the triangle find the maximum number in each line and sum them up example below
+ 5
+9 6 
+4 6 8 
+8 7 15 
+
+Answer I.e. 5+9+8+7 = 29
+writw a code to find the maximum total from top to bottom. Assume triangle can have at most 100000 rows.
+
+Input Output specifications
+ Input Specification 
+ A string of n numbers (where 0&lt;=n&lt;=10^10)
+eg.5#9#6#4#6#8#0#7#1#5
+
+Output Specification 
+A sum of the max numbers in each line (as string ) or Output invalid in case of invalid input/triangle 
+
+Examples
+ eg1.
+Input :5#9#6#4#6#8#0#7#1#5
+Output:29
+
+eg 2 .
+ Input :5#9#6#4#6#8#0#7#1
+Output:invalid 
+
+eg 2 .
+Input :5#9##4#6#8#0#7#1
+Output:invalid
+
+Google
+Software Engineer
+EndOfQuestion
+
+---Question :369---
+Design a restaurant reservation system - You need to design everything from scratch - Identify actors in the system, identify what all data should be stored in persistence storage (and why). How would you make your design scalable?
+
+Amazon
+SDE-2
+Software Design
+EndOfQuestion
+
+---Question :370---
+Design a data structure which could perform the following operations in O(1):
+- Insert(), Delete(), Search(), getRandom()
+
+getRandom() should pick a "random" element from your data structure, and should not be predictable (for instance always picking the "first" element from your DS)
+
+Amazon
+SDE-2
+Data Structures
+EndOfQuestion
+
+---Question :371---
+You are given a stream of incoming strings. Design a data structure, which at any instant, could tell the 100 most repeated words in constant time.
+
+Amazon
+SDE-2
+Data Structures
+EndOfQuestion
+
+---Question :372---
+Given a very large array of sorted integers, find the number of times a particular integer has been repeated in the array. Required complexity : O(logN)
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :373---
+At regular interval, we are receiving data (Price,Quantity). We need to find Most Sold Price(MSP). Need to design the solution to print the current MSP with total Qty of that price, every time a set of price and its quantity sold is provided as input.
+
+Amazon
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :374---
+Javascript check if string can be chained:
+Given an array of strings, find if the strings can be chained to form a circle.
+Eg:
+arr = ["aab", "bac", "aaa", "cda"]
+can be chained as "aaa"-&gt; "aab"-&gt; "bbb" -&gt; "baa"
+(Each string differs by one letter)
+
+StartUp
+Algorithm
+EndOfQuestion
+
+---Question :375---
+for given array
+
+Microsoft
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :376---
+We have an iterator class as below:
+
+Google
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :377---
+Find summation of n records added in past 60 secs
+
+Items of the type
+
+Bloomberg LP
+Financial Application Engineer
+Algorithm
+EndOfQuestion
+
+---Question :378---
+I want to store an item of below structure in a C++ contrainer.
+struct xyz
+{
+int i;
+time_t timestamp;
+}
+
+I also want to calculate summation of 'i' of all elements in the container which have been added in past 60 secs.
+
+Which container or data structure is best for this scenario. Should take care of iterator invalidations while calculating the summation iterating the container items (which can happen if a new element gets added when I am iterating).
+
+EndOfQuestion
+
+---Question :379---
+Javascript Code Question: Given the BST, Write the function return all the nodes that from the given node and given distance I.e: findnode(root, node1, distance)
+
+Service Now
+Algorithm
+EndOfQuestion
+
+---Question :380---
+Google is conducting a contest where they display a special doodle to the user
+submitting the billionth query of the day. Design a system to achieve this. (NOTE:
+Google has thousands of servers and each query can hit a different server).
+Optimise it. How will you handle server failures?
+
+Google
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :381---
+#include&lt;stdio.h&gt;
+#include&lt;string.h&gt;
+
+char* minimumCost(char* input1[],int input2)
+{
+
+Developer Program Engineer
+C
+EndOfQuestion
+
+---Question :382---
+#include&lt;stdio.h&gt;
+#include&lt;string.h&gt;
+
+char* minimumCost(char* input1[],int input2)
+{
+
+Developer Program Engineer
+C
+EndOfQuestion
+
+---Question :383---
+#include&lt;stdio.h&gt;
+#include&lt;string.h&gt;
+
+char* minimumCost(char* input1[],int input2)
+{
+
+Developer Program Engineer
+EndOfQuestion
+
+---Question :384---
+Array with distinct elements is given to you. write an API to return max selected ZIG ZAG array length.
+
+Zig Zag array can start with either '&lt;' or '&gt;'. Below two are valid Zig Zag arrays. 
+a&lt;b&gt;c&lt;d&gt;e&lt;f
+
+x&gt;y&lt;z&lt;l&gt;k
+
+Note: you may need to skip some elements while selecting Max Zig Zag array. But you should not change array order(swapping and sorting not allowed). 
+-----------
+Zig Zag array examples
+Test Case1:
+I/P : { 1,42,59,43,68,44 };
+O/P: return 5 (Selected ZIG ZAG array 1 &lt; 42 &gt; 43&lt; 68 &gt; 44)
+Test case2: 
+I/P: { 100,42,54,2,5 }; 
+O/P: return 5 (slected ZIg Zag array 100&gt; 42 &lt;54&gt;2 &lt; 5)
+Test case 3: 
+I/P: { 1,42,54,20,1 };
+O/P: return 3 {slected Zig zag array 1&lt;42&gt;20}
+
+Software Developer
+EndOfQuestion
+
+---Question :385---
+Given three arrays(arr1, arr2, arr3) each containing distinct positive numbers find three numbers a,b,c each from arr1, arr2, arr3 respectively such that (abs(a-b) + abs(b-c) + abs(c-a)) is minimum.
+
+Microsoft
+Algorithm
+EndOfQuestion
+
+---Question :386---
+design question:
+I will request you to first read only upto Solution-2 only and try to think about your solution and then read other lines. If we read whole post(without thinking about your solution) then your brain will get polluted with my idea and you may not be able to think naturally.
+
+----------------------------------------------------------------------------
+One machine daily taking backup of its datatstore on some server machine, MINIMIZE network data transferred.
+
+Solution -1 : Compress storage and then send over network
+
+Solution - 2 : Take diff and send only diff(and not whole data daily)
+
+Interviewer asked for better ideas as above two are well known ideas but I was stuck.
+
+---------------------------------------------------------------------------------
+
+So he gave me hint(no 1) and depending upon hint I devise following solution
+
+Solution - 3: Divide storage into sequence of 1K bits so total number of possible patters are 2^1000. Now Using hashTable just store existing 1000bits-length pattern and all their sequence numbers. And, then transfer this hashTable to server. So for example datastore consists of "file1, file2, file3=file1+file2" then we can reduce network data by 50%
+
+So interviewer asked why 1000bits and why not 100bits or 10000bits. Also, as we increase length of bit-pattern, probability of getting duplicate patterns reduces and if we decrease length of pattern we may not be able to effectively reduce network data transferred
+
+Solution-4: Don't divided storage bits into equal length pattern but in variable length pattern so client tells server "Pattern-X(bit string) of length L exists at offsets 5, 10003, 363738, 42311, 43433.
+
+Interviewer said how can check for variable length patterns on client machine as this will be computaionally inefficient. I suggested Trie, Huffman coding, file-by-file comparison but he straightway discarded those ideas :)
+
+He gave final important hint that 
+	somehow client should give indication to server that next bytes are going to be like this without tranferring those bytes and 
+	then server should tell client that "OK don't send next 1000bits as I already have them from previously send/stored data at different section(like different file) in storage"
+	and asked me how to do it and how will be the handshake/protocol between server-client
+
+Since, throughout interview I was stuck to my hashTable solution and not able to think beyond hashTable, as per HR I got negative feedback in this interview :(
+
+Overall interviewer was helping lot and was really helpful. He gave lot of hints and time(never said "Ok thats enough let us move on"...Finally I myself gave up :) )
+
+Microsoft
+Network
+EndOfQuestion
+
+---Question :387---
+Given 2D Array of only 0s and 1s, Find the row which gives max decimal value.
+
+ Input: int array[3][3] = {{0,1,0,}{1,1,0},{1,0,1}};
+ Output : 2(second row)...decimal value is 6
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :388---
+Given a string of numbers separated by spaces figure out whether or not you can arrive at 42 with the numbers using only addition, subtraction, and multiplication using java or javascript
+
+Service Now
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :389---
+Best Time To Sell Stock but with 1 restriction: after you sell your stock, you cannot buy stock on next day.
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :390---
+Design a locking mechanism for a distributed system .
+
+Google
+Software Engineer
+Software Design
+EndOfQuestion
+
+---Question :391---
+How can you read from disc such that you optimize the latency of the data read/writes?
+
+Google
+SDE1
+Computer Architecture &amp; Low Level
+EndOfQuestion
+
+---Question :392---
+Two political parties are contesting in the elections in the N number of states in the country. Each party wins some seats every year in each state. After the current elections are over we have the result of both the parties with their number of seats won in each state. 
+The two parties are considered equal if they win the same number of seats in the N states in any order. Otherwise, they are considered unequal. Input/Output Specifications 
+
+INPUT: 1) It is an array of N integers depicting number of seats won by party one in each state. 2) It is an array of N integers depicting number of seats won by party two in each state. 3) An integer containing number of states (N). 
+
+OUTPUT: Equal/Unequal/Invalid 
+Equal: if political parties are equal Unequal: if political parties are unequal Invalid: if any party has invalid number of seats in any state 
+
+Examples 
+
+Example 1: 
+Two parties contested in seven states Seats won by party one in all the seven states: {12,11,5,2,7,5,-11} Seats won by party two in all the seven states: {5,12,5,7,11,2,11} The party two has an invalid number of winning seats(-11). So the output will be "Invalid". 
+
+Input : 
+1) {12,11,5,2,7,5,-11} 
+2) {5,12,5,7,11,2,11} 
+3) 7 
+
+Output: Invalid 
+
+
+Example 2: 
+Two parties contested in seven states Seats won by party one in all the seven states: {12,11,5,2,7,5,11} Seats won by party two in all the seven states: {5,12,5,7,11,2,11} Both the parties are equal because they have got 11(2 times each), 5(2 times each),7( 1 time each), 2(1 time each), 12( 1 time each other outputs (0 times each). 
+
+Input : 
+1) {12,11,5,2,7,5,11} 
+2) {5,12,5,7,11,2,11} 
+3) 7 
+
+Output: Equal 
+
+Example 3: 
+
+Input : 
+{12,11,5,2,7,5,11} 
+{5,0,5,7,11,2,11} 
+ 7 
+
+Output: Unequal
+
+Google
+Software Engineer
+EndOfQuestion
+
+---Question :393---
+Given that you have a graph with an even number of points, how do you find two points that equally subdivide the graph?
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :394---
+What is Static class in Java? What is singleton class? How are they different.
+
+Goldman Sachs
+Java Developer
+EndOfQuestion
+
+---Question :395---
+Is java pass by value or pass by reference?
+Then he asked various question related to this.
+What if i pass integer, array list or object will the change reflect in the original function.
+In case of object will we have different behavior when i set it to null in the called function or when I call its method(setName("") for example ).
+
+Goldman Sachs
+Java Developer
+Java
+EndOfQuestion
+
+---Question :396---
+Given a list of integers, find the highest value obtainable by concatenating these together.
+
+For example, given 9, 918, 917 - The answer is 9918917.
+But given 1,112,113 - The answer is 1131121
+
+Google
+EndOfQuestion
+
+---Question :397---
+how can i design a parking garage of cars in java 
+the user enter a length and id of car and the program allowed the user to choose if he want 1/ add a car or 2/ leaving a car by id or 3/ show status
+
+EndOfQuestion
+
+---Question :398---
+Find the largest substring in s1, such that all characters in the substring are present somewhere in s2
+
+unknown
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :399---
+Design and implement a scalable multi-player N*N TicTacToe game.
+
+Flipkart
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :400---
+Implement class Queue with help of only 2 stacks.
+i.e.:
+
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :401---
+Implement class Stack with help of only 2 queues, 
+i.e.:
+
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :402---
+Rahul is playing a very interesting game. He has some N different type of match boxes. All match boxes may have different number of matchsticks (S1, S2, S3... Sn). 
+
+Rahul chooses two random numbers F and K. K should be less than N. The game is that Rahul wants to select any K match boxes out of N match boxes such that total number of matchsticks in these K selected match boxes should be multiple of F. 
+At the sametime Rahul wants that sum matchsticks of all the selected match boxes should be minimum possible. 
+
+Input Specifications: 
+1) Array S = {S1,S2,S3,...Sn} of size N corresponding to the number of match sticks in N matchboxes(0&lt;=N&lt;=1000} 
+2) F-Value (as explained above) 
+3) K-Value ( as explained above) 
+
+Output: 
+1 2 3 4 5 Here 3 is the number of matchsticks in matchbox I II III IV V minimum possible total number of matchsticks such that the conditioned explained in the problem statement is satisfied. Output -1 if it is not possible or invalid input. 
+
+For example, there are 5 match boxes i.e., N = 5 
+Let's say K is 3 (Rahul has to choose any 3 matchboxes) 
+
+Let's say F is 5(sum of matchsticks in 3 selected matchboxes should be multiple of 5). 
+Rahul can choose II, III and V matchboxes which would give the total sum of 10 which is multiple of F i.e., 5. And 10 is the minimum possible matchsticks possible in the above case. 
+So you have to answer the minimum possible matchstick(sum of the matchsticks in the selcted matchboxes) but the conditions given above should be satisfied.
+
+Google
+Software Engineer
+EndOfQuestion
+
+---Question :403---
+Asked me to write an API. Then ask:
+
+Consider how the API could support 3rd party applications which need to perform some logic based on the structure and content of a filter in a type-safe manner.
+
+unknown
+Software Engineer / Developer
+Java
+EndOfQuestion
+
+---Question :404---
+It is part of a programming exercise. 
+
+Input is a combination of arbitrary complex filters. For example:
+
+name = "smith" AND age &gt; 9 OR Not(city = "New York")
+
+It asks for a string representation, including the ability to generate and parse filters from the string representation. (you are not required to implement the string parsing logic since this could take too long)
+
+Hint: give an example of a tree data structure.
+
+unknown
+Software Engineer / Developer
+Java
+EndOfQuestion
+
+---Question :405---
+Below is almost correct program, there is only one line code is wrong, you have to fix it. 
+
+String str contains only a and b characters. below program checks whether str contains equal number of a and b characters.
+
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :406---
+An interval is represented as a combination of start time and end time. Given a set of intervals, check if any two intervals overlap. Input: arr[ ]={{1,3},{5,7},{2,4},{6,8}} Output: True. The intervals {1,3}and {2,4} overlap. Input: arr[ ]={{1,3},{7,9},{4,6},{10,13}} Output: false No pair of intervals overlap
+
+EndOfQuestion
+
+---Question :407---
+You are given two arrays of length M and N having elements in range 0-9.Your task is to create maximum number of length K from elements of these two arrays such that relative order of elements is same in the final number as in the array, they are taken from i.e. If two elements a,b are taken from array1 and and a comes before b in array1 so in the final number a should come before b (Relative order kept same) .
+Example: N=4 and M =6
+ Array1 = { 3 , 4 , 6,5}
+ Array2 ={9,1,2,5,8,3}
+Suppose K = 5, then number will be {9,8,6,5,3} 
+You can see {9,8,3} are taken from array2 in the same order as they are in Array2. Similarly {6,5} are taken from Array1 in the same order and number 98653 is maximum possible number.
+
+Google
+Research Scientist
+Algorithm
+EndOfQuestion
+
+---Question :408---
+Write a code to find out the median in an array of integers (array could have even number of elements or odd number of elements)
+
+(To update some hint at the end from the interviewer : he would look for a binary tree and find out some way to balance the tree and than obtain the median)
+
+Amazon
+Algorithm
+EndOfQuestion
+
+---Question :409---
+Given employee information in an organisation in the formal - emp_id,firstname,lastname,reports_to in the following way
+{
+ string[] Values = new[] { "Mc Grill,Mc,Grill,Karmon","Karmon,Zech,Karmon,Joe","Mithun,Try,Mithun,Joe","Joe,Top,Joe,","Zara,Aman,Zara,Mc Grill","Fizzy,Dude,Fizzy,Mc Grill"}; 
+
+}
+ Print the information from the top to bottom level in the way
+ 1) Top Joe
+ 2) Try Mithun
+ 2) Zech Karmon
+ 3) Mc Grill
+ 4)Aman Zara
+ 4) Dude Fizzy
+
+Amazon
+EndOfQuestion
+
+---Question :410---
+For a given string and dictionary, how many sentences can you make from the string, such that all the words are contained in the dictionary. 
+
+// eg: for given string -&gt; "appletablet"
+// "apple", "tablet"
+// "applet", "able", "t"
+// "apple", "table", "t"
+// "app", "let", "able", "t"
+
+// "applet", {app, let, apple, t, applet} =&gt; 3
+// "thing", {"thing"} -&gt; 1
+
+Uber
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :411---
+You have a memory location. It is actually a character array abc... upto z . 
+I have a integer pointer p pointing to a ie the first character of the array. 
+How do I print the character array using the integer pointer ?
+
+HCL
+Software Engineer
+C
+EndOfQuestion
+
+---Question :412---
+I had two interviews with Google 
+first) one with US person...he asked decent question with lot of hints...experience : positive
+
+and 
+then second) interview with person from India...I prepared for one month but he asked me very tough one graph/tree question...never gave single hint and based on that one question he judged my seven years of experience in Software Development (I never experienced what they say...Google looks for approach and not final answer)
+
+
+
+
+Q.1 : Arrange array in wave form A1 &gt; a2 &lt; a3 &gt; a4 ...
+O(n.log-n) (Note: its not A1 &gt;= A2)
+
+Q.2 : Given Graph with Tree characteristics, find one node as root so that height of tree will be minimum
+
+Google
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :413---
+Write a pseudocode for a function that does the following.
+Given a node in the tree datastructure, it determines whether there exists a path from the given node to a leaf node where the sum of values along the path equals the given sum.
+
+signature :
+boolean dse(Node node, int sum)
+
+The following assumptions maybe made
+1.Each node in the tree may have anywhere from zero to many children
+2. the three can have any arbitray depth
+3. each node the tree has a paositive integer value assigned to it.
+A can have children B,C,D
+B Children are E,F
+C children G
+D Children H,J
+H Children K
+J Children L, M
+A= 5,B=2, C=3,D=8,E=1,F=4,G=6,H=2,J=1,K=3,L=7,M=8
+Input and output should be
+dse(F,4) = true 
+dse(F,1) = false
+dse(B,6) = true
+dse(B,2)= false
+dse(b,7) = false
+dse(A,14) = true
+dse(A,22) = true
+dse(A,29) = false
+
+Algorithm
+EndOfQuestion
+
+---Question :414---
+Given string a and b, with b containing all distinct characters, find the longest common subsequence's
+
+length. Expected complexity O(nlogn).
+
+Uber
+SDE1
+Algorithm
+Data Structures
+EndOfQuestion
+
+---Question :415---
+Given a 4*n block, find number of different ways of filling it with 1*2 smaller blocks. Rotation of smaller blocks is allowed.
+
+Uber
+SDE1
+Algorithm
+Data Structures
+EndOfQuestion
+
+---Question :416---
+Imagine a man reading a book.
+He can perform only 2 possible actions of reading: 
+1) read a page in a minute (careful reading), 
+2) read two pages in a minute (look through).
+Nothing else is permitted.
+Calculate the number of all possible combinations of book reading ways with given number of pages.
+Example: given 3 pages.
+Answer is 3 combinations, as follows: 
+1st: Careful reading (1) - careful reading (1) - careful reading (1),
+2nd: Careful reading (1) - look through (2),
+3rd: Look through (2) - careful reading (1).
+
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :417---
+Given an array of integers of unknown size, how to reverse the order of the positive integers? 
+
+Ex [4 3 8 9 -2 6 10 13 -1 2 3 .. ] =&gt; 
+[ 9 8 3 4 -2 13 10 6 -1 3 2]
+
+unknown
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :418---
+Given-an-array-of-length-n-having-integers-0-to-n-1-in-unsorted-order-we-have-to-modify-this-array-such-that-the-value-at-a-n-becomes-a-a-n-for-example-if-a-0-contains-5-then-a-0-will-have-value-a-5-and-so-on-condition-is-that-this-should-take-O-n-time-complexity
+
+Adobe
+Field Sales
+Algorithm
+EndOfQuestion
+
+---Question :419---
+https://www.quora.com/Given-an-array-of-length-n-having-integers-0-to-n-1-in-unsorted-order-we-have-to-modify-this-array-such-that-the-value-at-a-n-becomes-a-a-n-for-example-if-a-0-contains-5-then-a-0-will-have-value-a-5-and-so-on-condition-is-that-this-should-take-O-n-time-complexity
+
+Adobe
+Field Sales
+Algorithm
+EndOfQuestion
+
+---Question :420---
+Consider a setup where a program is continuously receiving floats as inputs (a stream of numbers). Write a method that at any given time returns a moving average. That is the average of the last K numbers received. If the method is called before the program has received K numbers, simply return the average of however many numbers have been received thus far.
+
+Google
+Jr. Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :421---
+Data structure which supports both map operations and array operations without time complexity penalty.
+
+Google
+Software Engineer in Test
+Data Structures
+EndOfQuestion
+
+---Question :422---
+Given an active stream of sorted arrays, how would you merge them efficiently?
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :423---
+What is the fastest way to compute cube root?
+
+Google
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :424---
+Given a character limit and a message, split the message up into annotated chunks without cutting words as, for example when sending the SMS "Hi Sivasrinivas, your Uber is arriving now!" with char limit 25, you should get 
+["Hi Sivasrinivas,(1/3)", "your Uber is arriving(2/3)", "now!(3/3)"]
+
+Uber
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :425---
+The idea is their are "ticket stalls" with a certain number of tickets, say 9. Any ticket they sell is priced at the number of tickets that remain, so first ticket would be $9, second $8 etc...
+
+You're given two lines of data, say:
+
+2 4
+1 5
+The first row contains two numbers:
+
+The number of stalls
+How many tickets are sold
+The second line contains a list of how many tickets each stall has initially, so in this case stall 1 has 1 ticket, stall 5 has 5 tickets.
+
+The problem: what is the maximum amount of money you can make selling the given number of tickets?
+
+In this case, you sell four tickets from stall two for a price of 5 + 4 + 3 + 2 = $14
+
+Citrix System Inc
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :426---
+Assuming that a payment request is coming into an ecommerce network like Amazon, what are some of the design techniques that one should follow for a fail-safe transaction from the time the request hits the website till it is successfully processed?
+
+EndOfQuestion
+
+---Question :427---
+Given a group of no.s you need to arrange them in a such a way that they result into maximum no.
+The input no. can be of more than 1 digit, don't change no. digits order.
+
+Amazon
+SDET
+Algorithm
+EndOfQuestion
+
+---Question :428---
+Write func repeat(e, n).
+
+Args:
+	e: any object
+	n: a number of times
+Returns:
+	an iterator producing the element e n times
+
+Google
+Software Engineer Intern
+Data Structures
+EndOfQuestion
+
+---Question :429---
+Design auto complete for booking.com
+
+Booking.com
+Software Developer
+System Design
+EndOfQuestion
+
+---Question :430---
+Write a function to test if the given set of brackets are balanced or not. e.g. {{}}{)([][]
+
+Booking.com
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :431---
+The "Island Count" Problem
+
+Given a 2D matrix M, filled with either 0s or 1s, count the number of islands of 1s in M.
+An island is a group of adjacent values that are all 1s. Every cell in M can be adjacent to the 4 cells that are next to it on the same row or column.
+
+Explain and code the most efficient solution possible and analyze its runtime complexity.
+
+Example: the matrix below has 6 islands:
+
+ 0 1 0 1 0
+ 0 0 1 1 1
+ 1 0 0 1 0
+ 0 1 1 0 0
+ 1 0 1 0 1
+
+unknown
+xyz
+Algorithm
+EndOfQuestion
+
+---Question :432---
+Given the two objects below, implement the methods defined in the Phonebook class. This is a simulated phonebook. You should expect LookupByName and LookupByPhoneNumber to be called much more often than AddPerson. Also, this is a multi-threaded simulation so your implementations of the functions other than the constructor should be threadsafe. Feel free to rewrite this in any language of your 
+choice.
+
+Microsoft
+Software Engineer
+Threads
+EndOfQuestion
+
+---Question :433---
+write a program to parse a prefix expression and calculate it's result. Example: *-6 5 7 = 7.
+
+Qumulo
+Member Technical Staff
+Algorithm
+EndOfQuestion
+
+---Question :434---
+You're given a maze (that is not necessarily square shaped). The maze is composed of square rooms. In one of these rooms there is a flag. You have a robot that you can control using the following APIs:
+1. void Go() - drives the robot straight.
+2. void Turn(int degrees) - turns the robot x degrees to the right (x has to be a multiple of 90).
+3. bool IsWall() - returns true if the robot is facing a wall (you can't move from one room to the other).
+4. bool IsFlag - returns true if the room has the flag in it.
+5. void PutBreadCrumb() - throws a single breadcrumb in the room.
+6. bool HasBreadCrumb()- returns true if the room contains a breadcrumb.
+Using these Apis only, write a program to navigate the robot through the maze until it finds the flag.
+
+Qumulo
+Member Technical Staff
+Algorithm
+EndOfQuestion
+
+---Question :435---
+Implement ReentrantLock using simple locks.
+
+Google
+SDE1
+Threads
+EndOfQuestion
+
+---Question :436---
+The problem is quite interesting.
+We have to find the integer solution of the below equation .
+
+n&lt;=sum of(ki*xi)&lt;n+1
+
+such that ki are all constants, xi are integers.
+
+For example : 4&lt;=1.4x1+3.4*x2+1.1*x3&lt;5
+
+solutions (x1,x2,x3) =(1,1,0),(3,0,0),(0,1,1),(0,0,4) ...
+
+EndOfQuestion
+
+---Question :437---
+Check given Number is same after 180 degree rotation?
+
+i/p: 69
+o/p: True
+
+i/p: 916
+o/p: True
+
+i/p: 123
+o/p: False
+
+Microsoft
+Algorithm
+EndOfQuestion
+
+---Question :438---
+A company is trying to find best possible optimal solution for servicing his customer base of 300 with 12 employee.
+They want a technology solution that tells how they will be able to meet customer requirement as business will grow and other changes like location of customer changes, new locations added and so on. 
+
+Problem is basically a form of Travelling Salesman Problem ( TSP ) or Vehicle Routing problem ( VSP ). Following things need to be completed here.
+
+1&gt;	Explain logistics involved in this problem into succinct business definition.
+2&gt;	Different approach with which problem can be solved
+3&gt;	One implementation of the problem ( proof of concept ), using customer base coordinates mentioned below. ( 0,0 ) is considered the company coordinate which is the starting point. ( preferably Java )
+
+Here are coordinates with which working solution is expected provided in a text file as input:
+
+X coordinate	Y Coordinate
+420	278
+421	40
+29	178
+350	47
+298	201
+417	186
+378	134
+447	239
+42	114
+45	199
+362	195
+381	243
+429	1
+338	209
+176	9
+364	26
+326	182
+500	129
+190	51
+489	103
+368	142
+132	260
+305	200
+446	137
+375	154
+440	190
+9	118
+437	32
+383	266
+282	51
+366	19
+465	173
+93	210
+257	185
+316	242
+315	141
+236	14
+352	155
+311	106
+300	261
+66	154
+172	245
+376	16
+152	283
+41	259
+278	158
+299	102
+81	178
+178	218
+344	150
+269	172
+379	710
+301	611
+287	295
+392	258
+259	333
+427	273
+411	233
+355	707
+439	717
+298	390
+338	547
+407	697
+287	220
+355	524
+365	228
+257	632
+294	395
+315	626
+275	268
+346	724
+324	230
+436	310
+279	240
+317	601
+274	661
+294	483
+350	234
+328	689
+656	765
+778	792
+724	797
+686	723
+784	785
+730	756
+775	731
+777	647
+881	498
+634	906
+588	709
+884	867
+837	670
+513	477
+414	794
+387	798
+430	587
+638	18
+26	497
+721	765
+595	706
+985	962
+619	125
+106	252
+198	104
+554	91
+11	875
+757	386
+378	253
+719	878
+561	969
+36	821
+179	442
+31	814
+710	103
+8	168
+401	304
+913	921
+983	250
+100	727
+0	425
+114	900
+337	977
+709	808
+107	435
+442	488
+68	42
+826	967
+771	399
+460	831
+520	83
+530	406
+727	406
+58	195
+732	240
+512	974
+438	366
+184	954
+423	905
+549	923
+433	292
+395	237
+764	73
+698	503
+146	536
+200	211
+48	38
+31	39
+60	37
+41	38
+71	37
+54	39
+23	35
+73	38
+67	33
+45	39
+47	34
+69	30
+39	34
+52	38
+28	30
+949	892
+959	909
+966	930
+993	923
+925	887
+946	888
+998	951
+931	894
+966	839
+959	812
+986	965
+946	979
+927	800
+979	803
+987	980
+983	975
+993	858
+936	851
+998	912
+993	939
+997	916
+1000	832
+975	898
+919	882
+916	883
+980	974
+975	902
+996	808
+999	864
+991	829
+995	985
+982	926
+13	690
+23	525
+10	864
+15	283
+2	149
+3	580
+8	299
+16	361
+
+Adobe
+Data Scientist
+EndOfQuestion
+
+---Question :439---
+Give a Barrel a position say X.
+
+Barrel can pushed left or right with equal probability. 
+
+A single push to left side will place the barrel to left of X and push to right will place the barrel to right of X.
+
+After 10 pushes (either left or right with equal probability) what is the probability that barrel will be back to the same position X ?
+
+
+Write a code or derive mathematically.
+
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :440---
+Given a string of characters, find the longest legal word. A generic method to check word legality is given.
+
+Google
+Software Engineer
+EndOfQuestion
+
+---Question :441---
+How do we achieve (google news) personalization.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :442---
+Given a random string S and another string T with unique elements, find the minimum consecutive sub-string of S such that it contains all the elements in T.
+example:
+S='adobecodebanc'
+T='abc'
+answer='banc'
+
+Facebook
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :443---
+Given an infinite stream of characters and a list L of strings, create a function that calls an external API when a word in L is recognized during the processing of the stream.
+
+Example:
+L = ["ok","test","one","try","trying"]
+stream = a,b,c,o,k,d,e,f,t,r,y,i,n,g.............
+
+the call to external API (let's call it some function callAPI()) would be called when the 'k' is encountered, again when the 'y' is encountered, and again at 'g'.
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :444---
+Given a large that consists of millions of lines, retrieve only the first and last lines.
+
+Google
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :445---
+There is a circular train (the head is connected to the tail) where each car of the train contains a light bulb. Initially, the bulbs are randomly switched on/off. 
+
+You need to determine the size of the train (the number of cars) 
+by going from one car to another and switching the light bulbs
+
+Yandex
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :446---
+Cadbury bar size of 5*3 can be distributed to 4 children.
+
+5*4 can be distributed to 5 children.
+
+6*3 can be distributed to 2 children.
+
+6*4 can be distributed to 3 children. so the whole carton can be distributed among 14 children
+
+ 
+
+Program output shall be 14.
+
+ 
+
+Input/Output Specification: M,N,P,Q are the integer type (M,N values are the ranges for the length of cadburybar P,Q values are the ranges for breadth of Cadbury bar)
+
+Output: Number of children who will receive cadbury bar from the carton.
+
+Cisco Systems
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :447---
+Design a library to map a string of [a-zA-Z]+ to a positive integer value.
+
+For the strings, there could be:
+
+ An exact match. Eg: "get" will match only "get"
+
+ A prefix match. Eg: "com" will match anything that begins with "com"
+
+The conditions are:
+
+ An exact match takes preference over prefix match.
+
+ In cases of multiple matches, the longest match takes preference.
+
+Algorithm
+EndOfQuestion
+
+---Question :448---
+How is the per-process file/socket descriptor table is implemented in Linux? Specifically, which data structure(s) and algorithms are used to implement it and keep it efficient.
+
+Data Structures
+EndOfQuestion
+
+---Question :449---
+Given a set of ranges:
+(e.g. S = {(1, 4), (30, 40), (20, 91) ,(8, 10), (6, 7), (3, 9), (9, 12), (11, 14)}. 
+And given a target range R (e.g. R = (3, 13) - meaning the range going from 3 to 13). Write an algorithm to find the smallest set of ranges that covers your target range. All of the ranges in the set must overlap in order to be considered as spanning the entire target range. (In this example, the answer would be {(3, 9), (9, 12), (11, 14)}.
+
+Facebook
+EndOfQuestion
+
+---Question :450---
+how to find all paths of a graph? 
+hi , 
+i have a directed graph as an input and i want to find in that graph subGraphs that fit to some path 
+
+for example : i have the following graph 1[E] -&gt;2[E] -&gt;3[M]-&gt;4[E]-&gt;5[M]-&gt;6[M]-&gt;7[E]-&gt;8[M] .and i have the path E-&gt;M-&gt;E
+then the program output should be the subGraph 2-&gt;3-&gt;4 
+note that the solution should be implemented as ADJ Matrix 
+the Graph is directed DAG
+the program should be with C language
+
+Amazon
+Dev Lead
+C
+EndOfQuestion
+
+---Question :451---
+Given a prime set, we call "prime expressible" if a number can be factorized only using given prime numbers. Find n-th big expressible number. 
+
+E.g., prime set = {2, 3} 
+expressible number = {1,2,3,4,6,8, 9, 12...} 
+non-expressible number = {5, 10... } 
+
+The primes in the prime set are ordered in an increasing order, and can include a prime &lt; 10^4 (don't remember the exact range), and n can also be as large as 1-10^6.
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :452---
+Given an array of both positive and negative integers , find all pairs whose sum is equal to zero.
+
+xyz
+Software Engineer
+Algorithm
+Arrays
+EndOfQuestion
+
+---Question :453---
+Given an array A = [3, 7, 2,5,6,4] for a number N, print the pairs from that array A that sums up to N. You should print each pair once.
+
+Bloomberg LP
+Software Engineer Intern
+EndOfQuestion
+
+---Question :454---
+Given an array A [0, 1, 3, 4,9,5,7,6] and number N.
+This means that the array consists of the numbers from 0 ... N. However, as you see, 8 is missing in A. Print the missing number.
+
+Think about the case N = 10^6
+
+Bloomberg LP
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :455---
+Given an array of positive integers (excluding zero) and a target number. Detect whether there is a set of consecutive elements in the array that add up to the target.
+
+Example: a = {1, 3, 5, 7, 9}
+target = 8
+
+output = true ({3, 5})
+
+or target = 15
+output = true : {3, 5, 8}
+
+but if target = 6, output would be false. since 1 and 5 are not next to each other.
+
+Facebook
+Intern
+Algorithm
+EndOfQuestion
+
+---Question :456---
+Given an array of integers. Modify the array by moving all the zeros to the end (right side). The order of the other elements doesn't matter.
+
+Facebook
+Intern
+Algorithm
+Data Structures
+EndOfQuestion
+
+---Question :457---
+Given a dictionary containing a list of words, a starting word, and an ending word, return the minimum number of steps to transform the starting word into the ending word. 
+
+A step involves changing one letter at a time to a valid word that is present in the dictionary.
+
+Return null if it is impossible to transform the starting word into the ending word using the dictionary.
+
+Example:
+
+Starting word: cat
+Ending word: dog
+
+cat -&gt; cot -&gt; cog -&gt; dog ('cot' and 'cog' are in the dictionary)
+
+return 3
+
+Facebook
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :458---
+Suppose we have two CPUs, each has an L1 cache associated with it. An L2 cache is shared by the two CPUs, and it requests data from DRAM:
+
+|CPU0| |CPU1|
+|L1Cache0| |L1Cache1|
+ |Shared L2C|
+ |DRAM|
+
+Let's say CPU0 and CPU1 send out a write signal at the same time:
+
+- At timestamp 0, CPU0 sends a wr request - write address A to 0;
+- Also at timestamp 0, CPU1 sends a wr request - write address A to 1;
+- At timestamp 0, all of the L1/L2 caches are empty, i.e. write req will result in a miss in the cache;
+- At timestamp 0, data in address A in DRAM is 100;
+- Cache coherency protocol is MOESI.
+
+What will the values be after these two writes complete? In L1, L2 and DRAM? and what are the states in each cache?
+
+Google
+Systems Design Engineer
+Computer Architecture &amp; Low Level
+EndOfQuestion
+
+---Question :459---
+Given predicted stock prices for next n days for a stock e.g : 10, 30, 42, 15, 20, 50, 10, 25 find the maximum profit that can be made with a single buy-sell transaction. If no profit can be made return 0. In the example buying at 15 and selling at 50 gives maximum profit. Note that the two prices are neither minimum nor maximum in the array.
+
+Facebook
+Software Engineer / Developer
+EndOfQuestion
+
+---Question :460---
+Write a function to detect the number of cycles in a directed graph. The graph is passed as an adjacency matrix.
+
+Microsoft
+Algorithm
+EndOfQuestion
+
+---Question :461---
+Given an array of elements, return an array of values pertaining to how many elements are greater than that element remaining in the array.
+
+Brute force is obvious, but must be done faster than O(n^2)
+
+Ex. [3,4,5,9,2,1, 3]
+Return [3, 2, 1, 0, 1, 1, 0]
+First element is 3 because 3&lt;4,5,9. Second element is 2 because 4&lt; 5,9 etc
+
+Google
+Algorithm
+EndOfQuestion
+
+---Question :462---
+Given a 1D array, implement function Sum(x1,x2) where x1 and x2 are indices of array. Find sum of all elements in between the given indices inclusive of them. Do in Time complexity of O(1)
+
+Amazon
+SDE1
+EndOfQuestion
+
+---Question :463---
+Given a set of values 0-9, return all permutations of that set of length n. Example: n=2, set ={2,3,4} Return: {2,2}, {3,3}, {4,4}, {2,3}, {3,2}, {3,4}, {4,3}, {2,4}, {4,2}
+
+Google
+Algorithm
+EndOfQuestion
+
+---Question :464---
+Given a pattern and a string, return a boolean of whether the string matches the pattern.
+
+Each character in pattern represents one of more characters in string.
+
+Method: is_match(pattern, string)
+
+
+Sample Testcases
+
+
+is_match('abba', 'dogfishfishdog') -&gt; True
+
+is_match('aba', 'dogfishdog') -&gt; True
+
+is_match('a', 'acdefghijk') -&gt; True
+
+is_match('ab', 'acdefghijk') -&gt; True
+
+ 
+
+is_match('aba', 'dogfishfish') -&gt; False
+
+is_match('aba', 'dogfishhorse') -&gt; False
+
+
+Preferable use Python, and say the Big O runtime and space.
+
+Algorithm
+EndOfQuestion
+
+---Question :465---
+We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A's length.
+
+example:
+
+Facebook
+Front-end Software Engineer
+Front End Web Development
+EndOfQuestion
+
+---Question :466---
+c program using single linked list.
+Assume m nodes means 100 or 200 but we dont know exact. 
+print element m-4 node.
+Example: if m is 100 node print 96 node data
+
+Adobe
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :467---
+C program to accept two strings and print characters which are not present in first string.
+Example: 1 string: apple
+		2 string: aeroplane
+		output: ro
+
+Adobe
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :468---
+Given a system in which a musician is selling his CD's. User can enter how many CD"s he/she wants. Enter his/her address detail and click on next. The cost for the number of CD's, tax for the order, Shipping cost for the order and Total values are displayed. User enter the credit card / debit card details. Click on next. If the transaction successful/unsuccessful display the message accordingly. There is a bank web service which reads card information and a response is sent based on if it is a valid card or not. A database which stores all the information about user orders and their status. An admin portal which accesses the database to edit/update on user order status and user information. Test the complete system.
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :469---
+Test Amazon Website
+Functionalities: Two categories with 100 products each, Buying a product, Customer information, Order tracking
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :470---
+Explain the complete automation design and What have you contributed in the automation framework
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :471---
+How do you test search functionality of Amazon. Include category based searches as well. What tests you will automate and what tests you will not automate
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :472---
+Given a string and two words which are present in the string, find the minimum distance between the words
+Eg: "the brown qucik frog quick the", "the" "quick" O/P -&gt; 1
+"the quick the brown quick brown the frog", "the" "the" O/P -&gt; 2
+
+Amazon
+Quality Assurance Engineer
+Algorithm
+EndOfQuestion
+
+---Question :473---
+How to find if a given expression is a valid arithmetic expression?
+Eg:(())()) - Invalid expression, (()()) - Valid expression
+
+Amazon
+Quality Assurance Engineer
+Data Structures
+EndOfQuestion
+
+---Question :474---
+Find the first and last occurrence of a number in a sorted array of integers
+For Example: int[] a = {1,2,3,4,5,5,7,8}
+
+Amazon
+Quality Assurance Engineer
+Algorithm
+EndOfQuestion
+
+---Question :475---
+The Echo device light's up when a question is asked, but does not answer the question. Troubleshoot the scenario
+
+Amazon
+Quality Assurance Engineer
+Trouble shooting
+EndOfQuestion
+
+---Question :476---
+Write test cases for an analog watch
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :477---
+Given a linkedlist, write an algorithm to divide the linkedlist into two linkedlists, the first contains the Fibonacci numbers in the list and the second contains the non-Fibonacci numbers.
+Test the algorithm after developing the code
+
+Amazon
+SDE1
+Algorithm
+C
+Data Structures
+EndOfQuestion
+
+---Question :478---
+How to find kth prime number with k&lt;=500000 and time limit - 1s?
+
+Algorithm
+EndOfQuestion
+
+---Question :479---
+You are given a set of points on x axis (consumers)
+Also you are given a set of points on a plane (producer)
+
+For every consumer print the nearest producer.
+Wanted something better than O(n^2) time.
+
+Example:
+consumers: 1 5 7
+producers: (0, 3), (1,1), (3, 2), (8, 10), (9, 100)
+
+Answer:
+for 1 nearest producer is (1, 1), for 5 nearest is (3, 2), for 7 nearest is (3, 2)
+
+Follow-up question: now both sets are sorted by x coordinate. Could you come up with a linear algorithm?
+
+Facebook
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :480---
+Find a counter example proving that the following substring algorithm is incorrect:
+
+Google
+Algorithm
+EndOfQuestion
+
+---Question :481---
+Count the Mines Problem:
+
+Your program will first read an integer N from stdin.
+Then it will then read N lines of N integers separated by spaces.
+Each integer in this Grid will be either 1 or 0.
+
+The program then outputs an N x N Grid where each Grid element represents the number of 1's surrounding that element, (excluding the element itself).
+
+For (column, row) = (0, 0), surrounding element indices are (0,1) (1,0) and (1,1). 
+Similarly for (1,1), surrounding element indices are (0,0) (0,1) (0,2) (1,0) (1,2) (2,0) (2,1) and (2,2). 
+
+Constraints:
+
+Your output lines should not have any trailing or leading white space
+Maximum Dimension of Grid = 1000 x 1000
+
+Example Input:
+
+"3 0 1 0 0 0 0 1 0 0"
+
+Expected output:
+
+1 0 1
+
+2 2 1
+
+0 1 0
+
+xyz
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :482---
+Input argument of a method is a list of char array. The method have to print all the possible combination of input char(s)...For example if the input argument has ['A','B','C','D'] the output should be A,B,C,AB,AC,AD,BC,BD,CD,ABC,ACD,BCD,ABCD
+
+Amazon
+Senior Software Development Engineer
+Algorithm
+EndOfQuestion
+
+---Question :483---
+Given an array of "array range", return an optimized array by deleting subarrays. 
+
+NOTE: Array range (2,6) represents (2,3,4,5,6)
+ 
+INPUT: [(2,6),(3,5),(7,21),(20,21)]
+OUTPUT: [(2,6),(7,21)] 
+
+Reason: (3,5) is a subarray of (2,6) and (20,21) is a subarray of (7,21)
+
+Google
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :484---
+Given a sentence in a form of a string, reverse the words in the string and return a string. Handle a case where there might be period at the end of the sentence. If there is a period, the period has to come to the end of the reversed sentence. Discuss the time complexity of your algorithm. 
+
+INPUT: "This is a sentence"
+OUTPUT: "sentence a is This"
+
+INPUT2: "This one has period."
+OUTPUT2: "period has one This."
+
+Microsoft
+Software Engineer Intern
+Algorithm
+EndOfQuestion
+
+---Question :485---
+Find if the characters of the sample string is in the same order in the text string.. Give a simple algo.. 
+Eg.. TextString: abcNjhgAhGjhfhAljhRkhgRbhjbevfhO
+Sample string :NAGARRO
+
+Nagarro
+Java Developer
+Algorithm
+Arrays
+Brain Storming
+Brain Teasers
+Coding
+Hash Table
+String Manipulation
+EndOfQuestion
+
+---Question :486---
+there are n ranges of numbers, we need to find the kth smallest element.
+
+One way to find it is to perform a merge sort and return the kth element. but we don;t have extra space. For that we need to write the algorithm,
+
+eg:
+
+[2-8]
+
+[5-10]
+
+[7-20]
+
+5th smallest element is 5. 10th smallest element is 7.
+
+NetApp
+SDE-3
+Algorithm
+EndOfQuestion
+
+---Question :487---
+there are n ranges of numbers, we need to find the kth smallest element.
+
+One way to find it is to perform a merge sort and return the kth element. but we don;t have extra space. For that we need to write the algorithm,
+
+eg:
+
+[2-8]
+
+[5-10]
+
+[7-20]
+
+5th smallest element is 5. 10th smallest element is 7.
+
+EndOfQuestion
+
+---Question :488---
+How would you go about testing a distributed system such as Gmail, before releasing it to the public. How would you simulate realistic server load?
+
+Google
+Intern
+Distributed Computing
+EndOfQuestion
+
+---Question :489---
+add 2 huge numbers represented by linked list. Each linked list element represents a 4 digit number:
+
+linked list1 : 8798 -&gt; 8765 -&gt; 1243 -&gt; 9856 -&gt; 8888 -&gt; 0914
+linked list 2: 8710 -&gt; 5634 -&gt; 1276 -&gt; 8123 -&gt; 1354 -&gt; 9876
+
+output: ................-&gt; ............. ..-&gt; 7980-&gt;0243 -&gt; 0790
+
+Ebay
+Software Developer
+C
+EndOfQuestion
+
+---Question :490---
+difference between shared tree and source specific tree in multicast
+
+Ebay
+Software Developer
+Network
+EndOfQuestion
+
+---Question :491---
+write a program to validate a IPV4 address
+
+Ebay
+Software Developer
+C
+EndOfQuestion
+
+---Question :492---
+design a bit map of 16K bit
+get_bit, should get a free bit in this bit map
+clear_bit, should clear a bit in this bit map
+
+Hewlett Packard
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :493---
+write a program to toggle certain bits in a integer. 
+Eg.
+
+Inputs : int a, int start bit, int num_of_bits
+
+if a is say 11111010110100000
+
+if start = 6
+num_of_bits = 4
+
+output should be (starting 6th bit from right, toggle 4 bits)
+11111010001000000
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :494---
+write a program to count the 2 letter words in a sentence. Eg. "I am in love with New York" should return 2 (am and in).
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :495---
+design routing table using trie
+
+Hewlett Packard
+Software Engineer / Developer
+Network
+EndOfQuestion
+
+---Question :496---
+what are the advantages of IPV6 over IPV4 other than the scale advantage ?
+
+Hewlett Packard
+Software Engineer / Developer
+Network
+EndOfQuestion
+
+---Question :497---
+write a program to find the number when a string is transformed to a palindrome, you can go from higher alphabet to lower alphabet and not the other way:
+
+Example:
+
+to convert "abc" to palindrome, 'c' should be changed to 'a'. output should be 2 ('c' - 'a').
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :498---
+find bugs in the below program:
+
+void fn() {
+ int *i;
+ 
+ i = (int *) malloc (sizeof(int));
+ 
+ return;
+
+
+}
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :499---
+write a program to merge 2 linked list
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :500---
+define how packet reaches from one host to another host. Eg. in topology "host1 - router A - router B - host2" what happens in different layers
+
+Hewlett Packard
+Software Engineer / Developer
+Network
+EndOfQuestion
+
+---Question :501---
+write a program to delete the given node in a BST
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :502---
+write to program to find the set bits in an integer
+
+Hewlett Packard
+Software Engineer / Developer
+C
+EndOfQuestion
+
+---Question :503---
+how traceroute works
+
+Hewlett Packard
+Software Engineer / Developer
+Network
+EndOfQuestion
+
+---Question :504---
+how would you calculate path mtu
+
+Hewlett Packard
+Software Engineer / Developer
+Network
+EndOfQuestion
+
+---Question :505---
+You have some money in your bank account, the only function to withdraw money is uint16 Withdraw(uint16 value), if the value is greater than the money you have it returns 0, otherwise it withdraws the requested amount and returns the "value"
+Write a function that withdraws all your money.
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :506---
+Long getTime() // monotonically unique and increasing time
+
+ // Implement
+
+put(k, v) 
+
+get(k, t) // Return the value for k as it was at time t
+
+ // Example
+
+At Time 0:
+
+insert "Henry" -&gt; "Ireland"
+
+ 
+
+At Time 5: 
+
+insert "Henry" -&gt; "Dublin"
+
+ 
+
+At Time 10:
+
+insert "Jim" -&gt; "Edinburg"
+
+ 
+
+get("Henry", -1) = null
+
+get("Henry", 0) = "Ireland" // Times 0 -&gt; 4 return "Ireland"
+
+get("Henry", 1) = "Ireland"
+
+get("Henry", 2) = "Ireland"
+
+get("Henry", 5) = "Dublin" // All times &gt;= 5 return "Dublin"
+
+get("Henry", 10) = "Dublin"
+
+ 
+
+get("Jim", 7) = null
+
+get("Jim", 10) = "Edinburg"
+
+get("Jim", 25) = "Edinburg"
+
+
+We are not worried about space complexity but very much concerned with Time complexity
+
+Algorithm
+EndOfQuestion
+
+---Question :507---
+.
+
+Algorithm
+EndOfQuestion
+
+---Question :508---
+Find the value of (x, y) in Pascal's triangle. I wrote code to construct the Pascal's triangle upto the required (x, y). Then interviewer asked me to change code so that I dont have to calculate the whole triangle but only the necessary parts.
+
+ 1
+ 1 1
+ 1 2 1
+ 1 3 3 1
+ 1 4 6 4 1
+
+For example, in order to calculate f(4, 1) which is 4, we only need to calculate f(3, 0) and f(3, 1). And for f(3, 1) we need to calculate f(2, 0) and f(2, 1) and so on. After getting the hint, I wrote the recursive code and then he asked my for complexity of the code.
+
+Walmart Labs
+Java Developer
+EndOfQuestion
+
+---Question :509---
+Implement pow(x, y) which should return x^y. Both iterative and recursive.
+
+Walmart Labs
+Java Developer
+EndOfQuestion
+
+---Question :510---
+Print all permutations of a string and give the complexity of the algorithm.
+
+Walmart Labs
+Java Developer
+EndOfQuestion
+
+---Question :511---
+Given a tree (incolmplete and/or unbalanced), how would you write it to disk so it can be moved to another machine and recreated?
+
+Walmart Labs
+Java Developer
+EndOfQuestion
+
+---Question :512---
+Java question: 
+Given string represntation of an object and a list of classes. How would you determine what class that object belongs to?
+
+Ebay
+Java Developer
+EndOfQuestion
+
+---Question :513---
+Design database schema for the following problem:
+You have a website that allows user to download some content. You have to enforce a limit of say 10 items per day for a user. So a user cannot download more than 10 items per 24 hours.
+
+And download counters for users are not reset at 00:00 am because that would allow users to download 10 items between 11 and 12 at night one day and download another 10 items between 12 and 1 the same night. This violates the condition.
+
+Ebay
+Java Developer
+EndOfQuestion
+
+---Question :514---
+Given a number, print all valid parentheses combination for that number.
+Like for n = 3 output would be ()()(), (())(), ()(())
+
+Ebay
+Java Developer
+EndOfQuestion
+
+---Question :515---
+Is it possible to implement singelton pattern in JS. If it is how would you do it?
+
+Ebay
+Java Developer
+EndOfQuestion
+
+---Question :516---
+Given two identical dom trees and an element in one of those trees, find the corresponding element in the other tree and highlight it.
+
+Ebay
+Java Developer
+Algorithm
+Trees and Graphs
+EndOfQuestion
+
+---Question :517---
+Given a list of sorted arrays, like List&lt;int[]&gt;. Prepare and return a single sorted list.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :518---
+An employee class has id, name and a vector of employees who reports him. Given two employees find the common manager of them.CEO pointer is provided.
+
+Amazon
+Software Engineer / Developer
+EndOfQuestion
+
+---Question :519---
+Rearrange characters in a string so that no character repeats twice. 
+
+Input: aaabc 
+Output: abaca 
+
+Input: aa 
+Output: No valid output 
+
+Input: aaaabc 
+Output: No valid output
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :520---
+Rearrange characters in a string so that no character repeats twice. 
+
+Input: aaabc
+Output: abaca
+
+Input: aa
+Output: No valid output
+
+Input: aaaabc
+Output: No valid output
+
+Algorithm
+EndOfQuestion
+
+---Question :521---
+Split the string
+example: 
+String: programmingproblem
+Pattern: 6 5 7
+separator: ;
+Result: progra;mming;problem
+
+exception if the string has less or more characters given in the pattern.
+the program will take three inputs from the user, first string, second pattern and third pattern separator
+
+String Manipulation
+EndOfQuestion
+
+---Question :522---
+How would you implement an LRU cache using just a *single* container ? i.e., map or unordered_map ? 
+
+The cache must support operations: 
+1. value_t find(key_t) - find a certain value in cache 
+2. insert(key_t, value_t) - insert a new value to the cache (with optionally deleting an LRU entry)
+
+Software Engineer
+C++
+EndOfQuestion
+
+---Question :523---
+There are several people sitting in the cinema, some of them are couples, some are not, they decide to swap their seats so that the couples can seat together, please calculate the minimal swap numbers.
+1. the swap can happen between any two position.
+2. E.g. AABCCDB -&gt; AADCCBB, ans is 1
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :524---
+Given n, return 1 ^ 2 ^ 3 ^ ... ^ n
+Where ^ is binary xor.
+Note: n is a 64-bit number, and 1&lt;&lt;63 is a valid n for this problem.
+
+Examples:
+
+Facebook
+Software Engineer Intern
+EndOfQuestion
+
+---Question :525---
+consider an array1={1,1,1,1,1,1,1,1,1,1}
+ if n=4 add first four elements and next four elements
+result : array1={4,4,2}
+if n=3 add first three elements and next three elements repeat process untill size of array &lt;=n
+result1:
+ array1={3,3,3,1}
+result2 : array1={6,4}
+
+ss
+Java Developer
+Arrays
+EndOfQuestion
+
+---Question :526---
+Given an array of positive, unique, increasingly sorted numbers A, e.g. A = [1, 2, 3, 5, 6, 8, 9, 11, 12, 13]. Given a positive value K, e.g. K = 3. Output all pairs in A that differ exactly by K.
+ e.g. 2, 5
+ 3, 6
+ 5, 8
+ 6, 9
+ 8, 11
+ 9, 12
+what is the runtime for your code?
+
+Facebook
+Software Developer
+EndOfQuestion
+
+---Question :527---
+there are N cities (numbered from 1 to N) in the game and connect them by N-1 highways. It is guaranteed that each pair of cities are connected by the highways directly or indirectly.The game has a very important value called Total Highway Distance (THD) which is the total distances of all pairs of cities. Suppose there are 3 cities and 2 highways. The highway between City 1 and City 2 is 200 miles and the highway between City 2 and City 3 is 300 miles. So the THD is 1000(200 + 500 + 300) miles because the distances between City 1 and City 2, City 1 and City 3, City 2 and City 3 are 200 miles, 500 miles and 300 miles respectively.
+
+During the game the length of some highways may change. you want to know the latest THD.
+
+sample input
+3 5
+1 2 2
+2 3 3
+QUERY
+EDIT 1 2 4
+QUERY
+EDIT 2 3 2
+QUERY
+
+sample output
+10
+14
+12
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :528---
+You are given a permutation arr[N]. E.g. arr[3] = {2, 1, 0} or arr[5] = {0,1,2,4,3};
+Then you can prepare somehow and then start serving requests: request(a, b, k) = sorted(arr[a:b])[k], that is, k-th order statistic on slice [a:b] of arr.
+E.g. if arr is [3,4,5,0,1,2] and a = 2 and b = 5, then arr[a:b] = [5,0,1] and let k = 2, so we sort it - get [0,1,5] and take k-th element, that is - 5.
+
+Implement request(a, b, k) function. You can preprocess input data, that is, assume there will be only one array and many request() calls.
+
+Facebook
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :529---
+A nXn matrix consisting of 0 and 1 only is given. n is always odd. A variable k is also given as input. You have to find the minimum vaue of a function F(x,y) over k contiguous row wise elements such that arr[x][y] is 1 for all k contiguous elements. 
+
+F(i,j) for any index (i,j) is (n/2-i)^2 + (n/2-j)^2.
+
+Cadence Inc
+Development Support Engineer
+Algorithm
+EndOfQuestion
+
+---Question :530---
+Design a unique hash function for every tweet in Twitter which will be used as part of a service.
+
+Twitter
+SDE1
+Hash Table
+EndOfQuestion
+
+---Question :531---
+Strong relation group
+A group of social network experts are searching for an algorithm to find
+"Strong relation groups" among people. A group of people form a strong
+relation group if each of them know everyone else in the group. The
+problem seemed very tough to them, so they want to attack a smaller
+problem. If there are n people in a network and there are m pairs of
+relationship among them, what will be the minimum size of the largest
+"Strong relation group" in the network? If you know about graphs, you
+can think of people as nodes and their relationship as edges.
+Parameters:
+Complete a function strongRelation which takes two integers n and m
+as parameters.
+Input Format:
+First line contains a single integer denoting N.
+Second line contains a single integer denoting M.
+Return value:
+Return the answer to the problem.
+Constraints
+1 &lt;= T &lt;= 100000
+2 &lt;= N &lt;= 10000
+1 &lt;= M &lt;= N*(N-1)/2
+Sample Input:
+3
+2
+Sample Output 1:
+2
+Sample input 2:
+4
+6
+Sample Output 2:
+4
+Sample input 3:
+5
+7
+Sample Output 3:
+3
+Explanation
+1
+2
+3
+4
+5
+"Strong relation group" cannot be smaller than 4.
+For the third sample, it is easy to verify that any graph with 5 nodes and
+7 edges will surely have a "Strong relation groups" of size 3 or more
+
+Practo
+SDE1
+EndOfQuestion
+
+---Question :532---
+Can you predict the missing
+grade?
+Problem Statement
+Introduction
+The CBSE Class 12 examination, is taken by Indian high school students
+at the end of K-12 school education. The scores or grades in this
+examination form the basis of their entry to the College or University
+system, for an undergraduate program. At the K-12 level, students
+appear for examination in five subjects. These five subjects generally
+include one language; three elective subjects oriented towards Science,
+Commerce or Humanities; and any elective of their choice as a fifth
+subject.
+The Challenge
+This challenge is based on real school data of the CBSE Class 12
+examination conducted in the year 2013. You are given the grades
+obtained by students with specific but popular combinations of subjects
+(and all these students had opted for Mathematics). Their grades in four
+subjects are known to you. However their grade in Mathematics (i.e, the
+fifth subject) is hidden.
+The records provided to you are the grades obtained by students who
+had opted for the following combinations of subjects or courses and
+obtained a passing grade in each subject. The individual subjects in the
+data are:
+English, Physics, Chemistry, Mathematics, Computer Science, Biology,
+Physical Education, Economics, Accountancy and Business Studies.
+The most dominant subject combinations, account for approximately
+99% of the data are:
+English, Physics, Chemistry, Mathematics, Physical Education
+English, Physics, Chemistry, Mathematics, Economics
+English, Physics, Chemistry, Mathematics, Biology
+English, Economics, Accountancy, Mathematics, Business Studie
+s
+The grades of students in four subjects (other than Mathematics) are
+provided to you. Can you predict what grade they had obtained in
+Mathematics?
+To help you build a prediction engine, we will provide you with a training
+file, containing the grade points obtained by students with the above
+subject combinations, in all five subjects.
+Notes about the Grading System
+The student is first assessed on a scale of 100. (S)He needs a score of at
+least 33% to pass in the subject. Among those who pass:
+Grade 1 is assigned to the top one-eighth of students who pas
+s the course.
+Grade 2 is assigned to the next one-eighth of students who pa
+ss the course.
+.....
+Grade 8 is assigned to the last one-eighth of students who pa
+ss the course.
+If more than 1 student share the same score and lie in the margin, they
+share the higher grade.
+Input Format
+The first line will be an integer N. N lines follow each line being a valid
+JSON object. The following fields of raw data are given in json.
+SerialNumber (Numeric): The identifier of the student record.
+This is provided just for identification purposes and does n
+ot have any direct use.
+English (numeric) : The grade (between 1 and 8) obtained in E
+nglish. This will always be present.
+Three more numeric fields from among: Physics, Chemistry, Com
+puterScience, Hindi, Biology, PhysicalEducation, Economics, A
+1
+2
+3
+4
+5
+The input for each record has the grade for all subjects opted by a
+student, other than Mathematics which you have to predict as the
+answer.
+Constraints
+1 &lt;= N &lt;= 10
+The SerialNumber field will contain a unique numeric identifier such
+that 1 &lt;= SerialNumber &lt;= 5 * 10 .
+All other fields in the JSON fragment will represent the grades obtained
+in four subjects and will be populated by numeric values between 1 and
+8, both inclusive.
+Output Format
+For each student record that is given as a JSON object, containing the
+grade obtained in four subjects, output the predicted grade in
+Mathematics (this will be a numeral between 1 and 8, both inclusive) in
+a newline.
+Training File and Sample Tests
+The training file with sample test data is available here.
+The three files in this package are:
+training.json
+sample-test.in.json
+sample-test.out.json
+Training data as well as sample testcases have been provided in the
+above file for offline training and to help you build your prediction
+model. Feel free to include file data inside your code.
+Sample Input
+12345
+{"SerialNumber":1,"English":1,"Physics":2,"Chemistry":3,"Comp
+uterScience":2}
+json_object
+json_object
+json_object
+.
+.
+.
+5
+5
+1
+2
+3
+4
+5
+Sample Output
+1
+3
+4
+7
+8
+....
+....
+....
+Explanation
+It is predicted that first candidate obtained grade 1 in Mathematics, the
+second candidate achieved grade 3 in Mathematics, the third candidate
+achieved grade 4 in Mathematics and so on.
+Scoring
+For each of the N records in the input file, we will compute:
+p = abs(Predicted Grade Point in Mathematics - Actual Grade Point in
+Mathematics)
+Where 'abs' indicates the Absolute Value or Magnitude. If p = 0 or 1 your
+answer for that particular student record will be considered correct. i.e,
+we allow a tolerance of one grade point away from the correct answer,
+to take into consideration the marginal errors which might occur during
+the testing or grading process.
+Score = 100 * ((C-W)/N)
+Where C = Number of Correct predictions, not more than one grade
+point away from the actual grade point assigned.
+W = Number of wrong (incorrect) predictions and
+N = Total number of records in the input.
+While the contest is in progress, only the score based on the sample
+test case will be displayed to you. After the contest is completed, we
+will revise the scores based on performance on a hidden test set only.
+However, when you make submissions, you will be able to see whether
+your program attains a positive score on both the sample and the
+hidden test cases (to avoid a situation where unexpected errors occur
+on the hidden test set at the end).
+
+Practo
+SDE1
+EndOfQuestion
+
+---Question :533---
+Given a string and array of strings, find whether the array contains a string with one character difference from the given string. Array may contain string of different lengths.
+
+Ex: Given string
+
+Google
+Software Engineer / Developer
+Arrays
+String Manipulation
+EndOfQuestion
+
+---Question :534---
+Test Question
+
+ThoughtWorks
+Software Engineer
+Java
+EndOfQuestion
+
+---Question :535---
+Test Question, this is a test question
+
+ThoughtWorks
+Software Engineer
+Java
+EndOfQuestion
+
+---Question :536---
+Given two Binary Trees (not BST). Each node of both trees has an integer value. Validate whether both trees have the same integers, there could be repetitive integers.
+ex-
+Tree1:
+ 5
+ 1 6
+ 5 4 3 6
+
+Tree2:
+ 1
+ 3 4
+ 6 5
+have identical integers.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :537---
+Given a string which may contain parenthesis. We must verify the validity of the string.
+ex- 
+1) "&lt;ad675+-fkmfd&gt;" is a valid string
+2) "&lt;[((kskfhdbh7)" is invalid
+3) "[&lt;&lt;((shfs8))&gt;&gt;]" is valid
+
+Extension to the question - 
+Suppose you had a hash table that told you how a parenthesis starts and how it ends as a key value pair, how would you then validate the string.
+ex - &lt;key,value&gt; = &lt; '(' , ')' &gt; indicates '(' is a start parenthesis and ')' should be the end of that paranthesis.
+&lt;'A','&amp;'&gt; indicates that 'A' is a start parenthesis and '&amp;' is the end parenthesis.
+
+Note: Validity means a parenthesis that starts, must end.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :538---
+Given a linked list which in addition to the 'next' pointer has another valid pointer to a random node in the string, write a function to copy the linked list.
+
+Tintri
+Member Technical Staff
+Linked Lists
+EndOfQuestion
+
+---Question :539---
+Find the largest substring palindrome in a given string.
+ex: input: abbac output: abba
+
+Solution: Use Hashmap
+
+Amazon
+SDET
+Algorithm
+EndOfQuestion
+
+---Question :540---
+You are tasked with defining and implementing a function. as input, you are given an n x m matrix. x may appear any number of times in a matrix. your function should modify thebmatrix such that any row and column where x originally appears are completely over written with x
+
+For example:
+- - - - -
+- - - - - 
+- - - x -
+x - - - -
+- - - - -
+
+Expected output:
+x - - x -
+x - - x -
+x x x x x
+x x x x x
+x - - x -
+
+Software Engineer / Developer
+Matrix
+EndOfQuestion
+
+---Question :541---
+Design a train system which suggests shortest path and transfer needed to reach from source to destination. What can be the optimization. 
+For example:
+A system may have 10 trains from t1 to t10.
+
+There are total 100 stops in the system s1 to s100.
+
+Each train has fixed set of stops. You could allow to change and transfer train of source and destination does not cover using just 1 train. 
+
+What all can be APIs, data structure, optimizations scalable option.
+
+Software Engineer
+Algorithm
+Problem Solving
+Software Design
+System Design
+Trees and Graphs
+design
+EndOfQuestion
+
+---Question :542---
+Design Live comments. If your facebook.com homepage is open with bunch of feeds and if someone comments on those feeds, the comments should automatically show up in facebook.com home page without refreshing the page. Feeds could be a simple status update by a friend, post in a group, post by a person you're following, post in a page you've liked etc. 
+
+Few things what they are looking for -
+1. How do you solve it initially and how do you scale it?
+2. How do you scale push model in-case if you choose PUSH model to solve it? 
+3. If push cannot scale how do you solve it?
+4. How pull model solves it?
+5. When will you use push vs pull?
+
+Facebook
+Software Developer
+Software Design
+EndOfQuestion
+
+---Question :543---
+Gmail Password Recovery Phone Number Helpline Support.?
+
+xyz
+Android test engineer
+EndOfQuestion
+
+---Question :544---
+Given a cube made of N x N x N sub-cubes, how many sub-cubes are on the outside of the cube?
+
+Zynga
+Software Development Manager
+Puzzle
+EndOfQuestion
+
+---Question :545---
+Did anyone given JPMC java coding test in Jersey city or new York?
+
+Wipro Technologies
+Tech Lead
+EndOfQuestion
+
+---Question :546---
+Given two words, design an algorithm/flowchart and write a Python function to print the letter common to both the words in sorted order. Make the function to perform a case insensitive operation.
+
+Algorithm
+EndOfQuestion
+
+---Question :547---
+There is a garden of strawberry plants represented by a 2D, square array.Each plant represents an element in the matrix ie it has a number of strawberries. If a plant doesnt have strawberries it is denoted by 0. If 0 is encountered you cannot travel through that path.
+
+ 
+
+You can start from any cell along the left border of this ground (i.e the matrix) and travel until it finally stops at one cell in the right border, and you can only move to up/down/right. You can only visit each cell once. Calculate the maximum number of berries is obtained.
+
+Backtracking using Dynamic programming is one of the methods i have thought of.
+
+Also there some special conditions:
+
+a.Even in the left border and right border, we can go up and down.
+
+b. When we are at the top cell of one column, we can still go up, which demands us to
+
+ pay all current strawberries , then we will be teleported to the bottom cell of this column and vice
+
+ versa.
+
+Input: user enters dimensions of ground ie size of matrix and the matrix itself
+
+Output: is the maximum number of strawberries collected without encountering 0; in case we do we display 0.
+
+Till now i have managed to find the largest value in the first column of the matrix but i am facing difficulty in testing the neighbours of that cell.
+
+Also i am not able to store the position of the cell which i started from or even mark it.
+
+Input
+
+4 4
+
+-1 4 5 1
+
+2 -1 2 4
+
+3 3 -1 3
+
+4 2 1 2
+
+output
+
+23
+
+
+
+
+Input
+
+4 4
+
+-1 4 5 1
+
+2 -1 2 4
+
+3 3 -1 -1
+
+4 2 1 2
+
+output
+
+22
+
+Walmart Labs
+Algorithm
+C++
+Coding
+Dynamic Programming
+EndOfQuestion
+
+---Question :548---
+Explain all Design Patterns Used in Java Spring Framework.
+
+LendingKart
+Principal Software Engineer
+design
+EndOfQuestion
+
+---Question :549---
+Given an array int32 arr[] of size n, return the number of non-empty contigious subarrays whose sum lies in range [a, b]
+
+That is, implement the following naive algorithm faster than O(n^2)
+
+Google
+Software Engineer
+EndOfQuestion
+
+---Question :550---
+How can we call base class function in below scenario:
+Class Base
+{
+public:
+ virtual void fun()
+{ }
+};
+class Derived : Public Base
+{
+void fun(){}
+};
+int main()
+{
+Base *obj = new Derived();
+
+}
+Here how can we call the Base class function "fun()", when Base class pointer is pointing to derived class object.
+
+EndOfQuestion
+
+---Question :551---
+Design and implement the constructor for the minesweeper game that takes in the dimension of the field and number of mines as input
+
+Tableau
+Software Engineer / Developer
+Algorithm
+Object Oriented Design
+EndOfQuestion
+
+---Question :552---
+Elevator system for a tall building
+
+Tableau
+Software Engineer / Developer
+design
+EndOfQuestion
+
+---Question :553---
+Given a collection of buildings determine the length of a skyline.
+
+Length of the skyline will be the line you draw over the top of the buildings in the skyline.
+
+Remember you have to ignore the shorter buildings that get shadowed by taller buildings in front of them
+
+Tableau
+Software Engineer / Developer
+Algorithm
+EndOfQuestion
+
+---Question :554---
+Find the next value of a given value in a Binary Search Tree. Assume each node has reference to its parent
+
+Tableau
+Software Engineer / Developer
+Trees and Graphs
+EndOfQuestion
+
+---Question :555---
+return count of unique words without using split method.
+Input: string ="Swan swam over the sea swim Swan swim Swan"
+Output:4
+
+Algorithm
+EndOfQuestion
+
+---Question :556---
+Write Program for String Permutations using most efficient algorithm. Can you solve problem in O(n) time ?
+
+Facebook
+Software Engineer
+EndOfQuestion
+
+---Question :557---
+You are given an array of n unique integer numbers 0 &lt;= x_i &lt; 2 * n
+Print all integers 0 &lt;= x &lt; 2 * n that are not present in this array.
+Example:
+find_missing([0]) = [1]
+find_missing([0, 2, 4]) = [1, 3, 5] # because all numbers are [0, 1, 2, 3, 4, 5]
+find_missing([]) = []
+find_missing([0, 1, 4, 5]) = [2, 3, 6, 7] # because all numbers are [0, 1, 2, 3, 4, 5, 6, 7]
+
+Quirks are about requirements:
+
+Time complexity O(n) - BUT there should be some fixed constant C independent of size of input such that every element of array is written/read &lt; C times, so radix sorting the array is a no go.
+
+Space complexity O(1) - you may modify the initial array, BUT sorted(initial_array) must equal sorted(array_after_executing_program) AND you can't store integers outside range [0, 2n) in this array (imagine that it's an array of uint32_t).
+
+Google
+Software Engineer
+Brain Teasers
+EndOfQuestion
+
+---Question :558---
+Create a function Demo that takes input a function f and a parameter k, and returns a function that behaves the same as f except it caches the last k distinct accessed results of f.
+Demo_f = Demo(f,2)
+demo_f(arg1) - computed and cached
+demo_f(arg1)- returned from cache
+demo_f(arg2) - computed and cached
+demo_f(arg3) - computed and cached, f(agr1) is evicted
+
+I think its related to python decorators. Some one can give a hint how can I get started with this
+
+StartUp
+Data Scientist
+Coding
+EndOfQuestion
+
+---Question :559---
+Conflict resolution in Multi Master systems.
+
+Facebook
+Software Engineer / Developer
+EndOfQuestion
+
+---Question :560---
+design a URL shortener service
+
+Facebook
+Software Engineer / Developer
+EndOfQuestion
+
+---Question :561---
+check a binary tree is a binary search tree
+
+Facebook
+Software Engineer / Developer
+EndOfQuestion
+
+---Question :562---
+Evaluate the value of an expression given in Reverse Polish notation
+
+Linkedin
+Senior Software Development Engineer
+Coding
+EndOfQuestion
+
+---Question :563---
+This question was asked in the Technical Design round.
+
+How would you design a system to provide the top trending topcis in the last 5m/1hour/24hours
+The most trending topic should appear first
+
+A topic is said to be trending if it is shared the most. We are talking about a typical multi user environment (something like twitter, facebook).
+
+Linkedin
+Senior Software Development Engineer
+System Design
+EndOfQuestion
+
+---Question :564---
+This question was asked in the first coding round on-site.
+
+Give two sorted lists List&lt;Integer&gt; a and List&lt;Integer&gt; b.
+
+Find 
+the Union of these two lists -&gt; the union list should also be sorted
+the Intersection of these two lists -&gt; Intersection list should also be sorted.
+
+Linkedin
+Senior Software Development Engineer
+Coding
+EndOfQuestion
+
+---Question :565---
+Those who've attended on-site interview with LinkedIn might know that there are 2 rounds of coding interviews. This question was asked in my 2nd round of coding interview,
+
+Given two valid dictionary words of same length, write a function which returns the minimum number of steps to go from the first to the second word.
+You can change only one character at a time. Also, the word formed at every step should be a valid dictionary word.
+
+Eg: Provide minimum steps to go from 'cat' to 'dog'
+
+cat -&gt; bat -&gt; bet -&gt; bot -&gt; bog -&gt; dog
+
+Ans: 5
+
+Linkedin
+Senior Software Development Engineer
+Coding
+EndOfQuestion
+
+---Question :566---
+Given a grid of m*n size. Each block in grid has some amount of gold. 
+
+We start from first column of the grid(any row) and we can move in 3 direction - right, right-up and right-down.
+
+What is the maximum amount of gold we can collect from the grid.
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :567---
+You are given large numbers of logs, each one of which contains a start time (long), end time (long) and memory usage (int). The time is recorded as MMDDHH (100317 means October 3rd 5PM) Write an algorithm that returns a specific time (hour) when the memory usage is the highest. If there are multiple answers, return the first hour.
+
+e.g. 100207 100208 2
+ 100305 100307 5
+ 100207 100209 4
+ 111515 121212 1
+Answer: 100207
+
+(Need to consider different scenarios like the time slots could be very sparse)
+
+Google
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :568---
+Hadoop architecture:
+How would you deisgn a Craiglist based architecture ?
+What hadoop components you would use. Given the user can search for a car and the car listings get updated frequently. How would you design the craglist system. What database you would use and how would you process the data ?
+
+Software Developer
+System Design
+EndOfQuestion
+
+---Question :569---
+(x-1)! % x = -1 in efficient way.
+
+SDE1
+Math &amp; Computation
+EndOfQuestion
+
+---Question :570---
+Print first and last node of all the levels of a tree.
+Ex if tree is -
+
+root-&gt;data = 1
+root-&gt;left-&gt;data = 2
+root-&gt;right-&gt;data = 3
+root-&gt;left-&gt;right-&gt;data = 4
+root-&gt;right-&gt;right-&gt;data = 6
+root-&gt;right-&gt;left-&gt;data = 5
+root-&gt;right-&gt;left-&gt;left-&gt;data = 7
+root-&gt;right-&gt;left-&gt;left-&gt;right-&gt;data = 8
+
+Output - 1 2 3 4 6 7 8
+
+Amazon
+SDE-2
+Algorithm
+EndOfQuestion
+
+---Question :571---
+The truck monitoring app is installed on the truck driver's phone. This app sends the 
+
+location info back to the truck supervising application. there is a supervisor who monitors 
+
+the route, drop off locations and time for the trucks from the head office to make sure the 
+
+SLA's with the vendors(time, location, goods sign off) are honored. List the test cases and 
+
+certify this application
+
+Amazon
+Quality Assurance Engineer
+Application / UI Design
+EndOfQuestion
+
+---Question :572---
+3.	Implement a function that returns the i-th most popular item sold at Amazon. You cannot rely on any libraries.
+ 
+class Item {
+ String itemId;
+ int quantitySold;
+}
+ 
+/**
+ * Find the ith most popular item in the list.
+ */
+String find(List&lt;Item&gt; items, int i) {
+ // your code goes here
+}
+
+Amazon
+Software Developer
+EndOfQuestion
+
+---Question :573---
+1. Write a function that removes the duplicate of a collection of numbers and returns the number of elements remaining in the collection after the duplicates have been removed. You must ensure that duplicates are actually removed from the list.
+ 
+Example #1
+ 
+Input
+{1, 1, 5, 3, 8, 3, 7, 32, 32}
+ 
+Output
+6
+ 
+Example #2
+ 
+Input
+{21, 10, 24, 2, 21}
+ 
+Output
+4
+
+int removeDuplicates(List numbers) {
+ // your code goes here
+}
+
+Amazon
+Software Developer
+EndOfQuestion
+
+---Question :574---
+Given two arrays were digits of one array represent a number,maxmise the number by replacing it with elements of second array.
+eg:
+arr={3,1,4,5,6}
+rep={1,9,5,2,3}
+
+after replacement
+arr={9,5,4,5,6}
+one digit of rep can be used to replace only once.
+
+Microsoft
+Senior Software Development Engineer
+EndOfQuestion
+
+---Question :575---
+Write a program to process the matrix. If an element is 0 at ith row and jth column, then make the whole ith row and jth column to 0.
+
+Constraints:
+Space complexity should be O(1)
+Time complexity - Only single pass is allowed. Note that single pass is not O(n). This is single pass : An element will read and written only ones.
+
+Edit:
+
+Recursion is not allowed since it is O(n) space on stack
+
+Microsoft
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :576---
+Consider the problem of building a wall out of 21 and 31 bricks (horizontalvertical dimensions) such that, for extra strength, the gaps between horizontally-adjacent bricks never line up in consecutive layers, i.e. never form a "running crack".
+
+There are eight ways of forming a crack-free 93 wall, written W(9,3) = 8.
+Calculate W(32,10).
+
+I need solution for this in C / C++ asap
+.
+Thanks much in advance for your help.
+
+Vivek.
+
+C++
+EndOfQuestion
+
+---Question :577---
+To find 5th prime number after 3. suppose input is 3 5 output should be 17
+ #include &lt;stdio.h&gt;
+int main(void) {
+	int x;
+	for(; scanf("%d",&amp;x) &gt; 0 &amp;&amp; x != 42; printf("%d\n", x));
+	return 0;
+}
+
+freshers
+C
+EndOfQuestion
+
+---Question :578---
+Given three arrays A,B,C containing unsorted numbers. Find three numbers a, b, c from each of array A, B, C such that |a-b|+|b-c| +|c-a| is minimum.
+
+Amazon
+SDE1
+Algorithm
+EndOfQuestion
+
+---Question :579---
+Problem:
+8 balls, where 7 have equal weight, one does not. Find minimum times to use a scale to find ball that is not equal weight.
+
+Interviewer answer: weight 6 balls. Choose balls from lighter side. Total two attempts. This is the average case but not the best case.
+
+This is not true in all cases and the interviewer did not see this...
+
+Best case:
+Pick two balls. One may weight less, so the lighter ball is found with one attempt. This is the best case.
+
+Worst case: If first two balls are equal, weight 6 balls. Choose balls from lighter side. Weight again. Total three attempts.
+
+BMO Harris Bank
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :580---
+Counting the islands. 
+ 
+ Given a map N x N, 2-D array
+ 0 - sea
+ X - land
+ 
+ Land is connected by 4-Neighbor connections, i.e.: above, down, left and right.
+
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 0000000000000000000X000000000000000
+ 000000000000000000XXX00000000000000
+ 000XX000000000000000000000000000000
+ 000XXXX0000000000000000000000000000
+ 0000000X000000000000000000000000000
+ 00000000000000000000000000000000000
+ 000000000000000000000X0000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 00000000000000000000000000000000000
+ 
+ Output of this map: 4 (totally 4 islands on the map)
+
+Google
+iOS Developer
+EndOfQuestion
+
+---Question :581---
+Number list compressing.
+Given an sorted array. Input: sorted number list
+ 1, 2, 3,10, 25, 26, 30, 31, 32, 33
+
+ Output: find consecutive segments
+ print: 1-3, 10, 25-26, 30-33
+
+Google
+iOS Developer
+EndOfQuestion
+
+---Question :582---
+There is a graph which represent average number of days the defects spent in status over a 
+
+duration of time say in progress, ready for Qa etc. For example the X asis of the graph 
+
+will project the daily/weekly/monthly duration and the y axis would be the count of days. 
+
+List the test condtions to test and certify this graph
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :583---
+A registration form, to get user details has phone number field. This field is javaScript 
+
+validated to get only numbers as input. But internally in the database they are stored as 
+
+text. Do think there is an issue ? High/Medium/Low ? Justify
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :584---
+The client sends a string to server and the server respnds with the same string appended 
+
+with date and time. List down the tests
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :585---
+Kth largest element
+Consider that there are 2 lists that contain numeric values S1 and S2. the developer has 
+
+written a program to find the kth largest element in the merge of two sorted sequences S1 
+
+and S2. The developer has written a program implementing the same. List down the test 
+
+conditions to test and certify
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :586---
+The truck monitoring app is installed on the truck driver's phone. This app sends the 
+
+location info back to the truck supervising application. there is a supervisor who monitors 
+
+the route, drop off locations and time for the trucks from the head office to make sure the 
+
+SLA's with the vendors(time, location, goods sign off) are honored. List the test cases and 
+
+certify this application
+
+Amazon
+Quality Assurance Engineer
+Testing
+EndOfQuestion
+
+---Question :587---
+Given an array of task and k wait time for which a repeated task needs to wait k time to execute again. return overall unit time it will take to complete all the task. 
+Example: 
+1. A B C D and k = 3
+ans: 4 (execute order A B C D)
+2. A B A D and k = 3
+ans: 6 (execute order A B . . A D)
+3. A A A A and k =3 
+ans: 13 (A . . . A . . . A . . . A)
+4. A B C A C B D A and k = 4
+ans: 11 (A B C . . A .C B D A )
+
+Twitter
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :588---
+Post order traversal for an N-ary tree iterative way.
+Given,
+struct Node {
+ int val;
+ vector&lt;Node*&gt; children;
+};
+
+Without modifying original structure.
+
+Google
+Software Engineer
+Algorithm
+C++
+Trees and Graphs
+EndOfQuestion
+
+---Question :589---
+Post order traversal for an N-ary tree iterative way.
+Given,
+struct Node {
+ int val;
+ vector&lt;Node*&gt; children;
+};
+
+To simplify you can modify the structure.
+
+Google
+Software Engineer
+Algorithm
+C++
+Trees and Graphs
+EndOfQuestion
+
+---Question :590---
+Given an array of strings with only lowercase letters , create a function that returns an array of those same strings, but each string has its letters rearranged such that it becomes a palindrome (if possible, if not, return -1)
+
+Amazon
+Java Developer
+Java
+EndOfQuestion
+
+---Question :591---
+You are given a board with N rows and M columns. In this board you have to place exactly 1 bishop in each row. There are also some obstacles in some of the cells where you can't place a bishop. Bishops can only move diagonally but they can't go to a cell where there is any obstacle. Two bishops can attack each other if one of them can move to the cell of the other bishop. Now you have to count the number of ways that you can place bishops in the board.
+
+Note: Two bishops can attack each other if one of them can move to the cell of the other bishop in a single move without passing any obstacles.
+
+Input Format
+
+The first line of the input contains two integers N and M. The following N lines contain M characters each, the description of the board. Each cell of the board is either '.' which means that this cell is free or '*' which means that this cell contains an obstacle.
+
+Constraints
+
+1&lt;=N,M&lt;=10
+Output Format
+
+Print only one integer representing the number of ways to put exactly one bishop in each row such that no two bishops attack each other.
+
+Sample Input
+
+3 3
+..*
+.**
+.*.
+Sample Output
+
+2
+
+EndOfQuestion
+
+---Question :592---
+Connect nodes at same level of a binary tree recursively using O(1) space (we can ignore stack space used for recursion)
+
+Tree node is like following.
+
+Amazon
+SDE-2
+EndOfQuestion
+
+---Question :593---
+Write a function that takes two integer-valued arrays A and Q and computes a minimum length subarray A[i:j] that sequentially covers Q. Assume all elements in Q are distinct.
+
+Hash Table
+EndOfQuestion
+
+---Question :594---
+Design a system for capturing screenshots of various devices- Tablets, laptop, desktop, mobile, etc.
+They can differ over resolutions and sizes, and can capture screenshots on their own. Design a system which can query those screenshots and store the images generated in a file system
+
+Random
+Random
+System Design
+EndOfQuestion
+
+---Question :595---
+There are 10 coin producing machines which produces a coin of weight x grams. Out of those, 2 machines are defective and produces coins of x-1 grams. How to find those two defective machines. 
+
+Then extend this question to a total of n machines and out of those m machines are defective.
+
+Adobe
+Member Technical Staff
+Puzzle
+EndOfQuestion
+
+---Question :596---
+How would you implement X-ray for Kindle? X-ray is an index of characters in a book that shows how often a character appears in the book, and at which places. I was explained how this index works, and what it will look like on the book. There re more details here: http://www.amazon.com/gp/help/customer/display.html?nodeId=200729910
+
+Amazon
+Software Engineer
+Algorithm
+EndOfQuestion
+
+---Question :597---
+Design an algorithm to find all the common elements in two sorted lists of numbers. For example, for the lists 2, 5, 5, 5 and 2, 2, 3, 5, 5, 7, the output should be 2, 5, 5.
+
+IBM
+Java Developer
+Algorithm
+EndOfQuestion
+
+---Question :598---
+Given a string which only contains lowercase. You need delete the repeated letters only leave one, and try to make the lexicographical order of new string is smallest.
+i.e:
+bcabc
+You need delete 1 'b' and 1 'c', so you delete the first 'b' and first 'c', the new string will be abc which is smallest.
+
+ps: If you try to use greedy algorithm to solve this problem, you must sure that you could pass this case:
+cbacdcbc. answer is acdb not adcb
+
+I can't solve this problem well and the interviewer said that you can scan the string twice. First scan is do some preprocess, and the second is to get the answer, but I really can't come up this idea.
+
+Google
+Software Developer
+Algorithm
+EndOfQuestion
+
+---Question :599---
+Given N tasks, find the maximal points that can be achieved by finishing them
+
+Problem Constraints
+
+There are T minutes for completing N tasks
+
+Solutions can be submitted at any time, including exactly T minutes after the start
+
+i-th task submitted t minutes after the start, will get maxPoints[i] - t * pointsPerMinute[i] points
+
+i-th task takes requiredTime[i] minutes to solve
+
+Input Format
+
+Line 1: T, total minutes available to finish
+
+Line 2: Comma separated list of maxPoints
+
+Line 3: Comma separated list of pointsPerMinute
+
+Line 4: Comma separated list of requiredTime
+
+Sample Input
+
+75
+
+250,500,1000
+
+2,4,8
+
+25,25,25
+
+Sample Output
+
+1200
+
+Explanation
+
+First, solve the third task 25 minutes after the start of the contest. Get 1000 - 8 * 25 = 800 points
+
+Second, solve the second task 50 minutes after the start of the contest. Get 500 - 4 * 50 = 300 points
+
+Third, solve the first task 75 minutes after the start of the contest. Get 250 - 2 * 75 = 100 points
+
+In total, get 800 + 300 + 100 = 1200 points
+
+
+Any optimized solution for this ?
+
+Microsoft
+Algorithm
+EndOfQuestion
+
+---Question :600---
+There's a very simple compression algorithm that takes subsequent characters and just emits how often they were seen. 
+ 
+Example: 
+ abababaabbbaaaaa
+
+Booking.com
+Software Engineer
+Algorithm
 EndOfQuestion
