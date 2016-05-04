@@ -6,9 +6,6 @@ Created on Thu Mar 10 19:19:40 2016
 """
 import re,sys,time
 from selenium import webdriver
-#import json
-#reload(sys)  
-
 # Set default python encoding to utf-8 instead of asciii.
 #sys.setdefaultencoding('utf8')
 #sys.getdefaultencoding()
@@ -16,13 +13,7 @@ from selenium import webdriver
 driver = webdriver.Chrome('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\chromedriver.exe')
 
 def parsePage(html):
-#p = re.compile('<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?)</p>.*[\sa-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?(<span class="tags">.*[\sa-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?</span>)')
     p=re.compile('<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?)</p>.*[\sa-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?[\sa-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?<abbr.*?Z">(.*?)</abbr>.*[\sa-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?(<span class="tags">.*[\sa-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?</span>)')
-    
-    #working 1 #  '<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?)</p>.*?[\s\-\<a-zA-Z\/\>\=\"\:\.\?\d\(\)\;]*?<abbr.*class="timeago".*?">(.*?)</abbr>.*[a-zA-Z\s\<\_\=\"\d\/\?\>\|\:\.]*?\
-            #[\s\<\>\:\/\\\?a-zA-Z\_\=\"\d\|\.]*?(<span.*class="tags">.*[\s\<\>\:\/\\\?a-zA-Z\_\=\"\d\|\.\-]*?</span>)')    
-    # Working 2 #for 3 tags '<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\</>]*?)</p>.*?[\s\-\<a-zA-Z\/\>\=\"\:\.\?\d\(\)\;]*?<abbr.*class="timeago".*?\"\>(.*?)\<\/abbr>[a-zA-Z\s\<\_\=\"\d\/\?\>\|\:\.]*?(<span.*class="tags">.*[a-zA-Z\s\<\=\"\:\/\/\?\.\-\>]*?</span>)')
-    #'<a.*?href.*?question.*?<p>([a-zA-Z\s\,\[\]\(\)\.\'\"\#\?\@\`\%\^\*\:\=\d\&\;\_\{\}\!\$\+\\\/\-\|\…\<\>]*?)</p>.*?<a href="/user.*popup\(.*\)\;\"\>(.*?)</a>')    
     Ms=re.finditer(p,html)
     for count,M in enumerate(Ms):
         global qnum
@@ -32,7 +23,6 @@ def parsePage(html):
         question=re.sub(' +',' ',ques).strip()#remove duplicate spaces
         fw.write(question+'\n')   
         #print question
-        #fw.write('\n'+M.group(2)+'\n')
         tagshtml=M.group(3)
         tags=re.finditer('<a.*?[a-z\<\s\=\"\>\/\?\-]*?>(.*?)</a>',tagshtml)
         for tag in tags:
@@ -61,4 +51,3 @@ while True:
     time.sleep(3)
     page+=1
 fw.close()
-#####################

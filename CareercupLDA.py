@@ -7,58 +7,36 @@ import lda
 #stopwords=stopwords.words("english") 
 import numpy as np
 import re
-topic_num=10
+topic_num=30
 
 #tokenization
 tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
-#print tf_vectorizer
-#min in document 
-#ignore common 95% of words which aapprears in all docs
-#ignore common english words
                                 
 #read the dataset                
 data=open('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\dataset.txt').read()#split('EndOfQuestion')
-#print data
 doc0=re.sub('---.*?---',' ',data) 
-#print doc0
 doc1=re.sub('[^a-zA-Z]',' ',doc0)#replace chars that are not letters or numbers with a space
-#print doc1
-doc2=re.sub('EndOfQuestion','.',doc1)#remove duplicate spaces
-#print doc2
+doc2=re.sub('EndOfQuestion','.',doc1)
 doc3=re.sub(' +',' ',doc2)#remove duplicate spaces
-#print doc3
-doc4=re.sub(' \.','.',doc3)#remove duplicate spaces
-#print doc4
+doc4=re.sub(' \.','.',doc3)
 doc5=re.sub('\. ','.',doc4.lower())
 docs=[x for x in doc5.split('.') if x]
-len(docs)
+#len(docs)
 
 filew=open('clean_file.txt','a+')
 for i in docs:
     filew.write(i+'.')        
 filew.close()
 
-#print docs
-#docs=open('C:\\Users\\lalit\Desktop\\Stevens\\Python\\careerCup\\cleandata2.txt').read().split(" . ")
-#words=docs.split()
-#print len(docs)
-#print words[2]
-#StopWords = stopwords.words("english")
-#docs = ''.join([word for word in doc3.split() if word not in StopWords])
-#print docs
-#print docs
-#transform the docs into a count matrix
 matrix = tf_vectorizer.fit_transform(doc3.split(" . "))
 #print matrix
-#Learn the vocabulary dictionary and return term-document matrix.
 
 #get the vocabulary
 vocab=tf_vectorizer.get_feature_names()
-#print vocab
 
 #initialize the LDA model
 model = lda.LDA(n_topics=topic_num, n_iter=500)
-#print model
+
 #fit the model to the dataset
 model.fit(matrix)
 
