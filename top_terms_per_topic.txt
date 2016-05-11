@@ -1,12 +1,1 @@
-TOPIC: 0 --> input output number lt cell array matrix example row value case player integer minimum column sum left right total max 
-TOPIC: 1 --> tree node given algorithm amazon developer binary software engineer graph nodes sde left data right root trees weight path google 
-TOPIC: 2 --> question sample line file asked single code json value student following program answer lines test data solve does id coding 
-TOPIC: 3 --> gt lt algorithm rs form zag position zig ex visited note true label square representation null parenthesis calculate programming reverse 
-TOPIC: 4 --> amp int developer program class char include printf new lt void gt engineer java main hcl team string public systems 
-TOPIC: 5 --> use solution match design write pattern data store city file multiple read say cache interviewer like gave query bits storage 
-TOPIC: 6 --> design number engineer software user developer end like customer java amazon notes problem time com phone sde database facebook make 
-TOPIC: 7 --> test engineer quality amazon assurance list points testing task development senior time best cases expression minutes coding app application second 
-TOPIC: 8 --> array given algorithm software list number elements engineer integers sorted element time numbers amazon complexity arr linked example order arrays 
-TOPIC: 9 --> data need structures employees index sde employee structure smallest triangle element height th block development way consider calculate distributed reports 
-TOPIC: 10 --> string algorithm software given developer function output program example words write characters word input length valid java engineer method strings 
-TOPIC: 11 --> given software engineer write algorithm number google numbers value true set return developer program using time function ip microsoft returns 
+TOPIC: 0 --> design linked number algorithm given multiple value write question sde software engineer 

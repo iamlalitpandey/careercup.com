@@ -7,7 +7,7 @@ import lda
 #stopwords=stopwords.words("english") 
 import numpy as np
 import re
-topic_num=12 # Number of topics for the LDA.
+topic_num=1 # Number of topics for the LDA.
 
 #tokenization 
 #ignore words which are in more than 95% of document and present in minimum 2 document
@@ -41,7 +41,7 @@ model = lda.LDA(n_topics=topic_num, n_iter=500)
 model.fit(matrix)
 
 #write the top terms for each topic
-top_words_num=20 
+top_words_num=12 
 topic_mixes= model.topic_word_
 #print len(topic_mixes)
 
