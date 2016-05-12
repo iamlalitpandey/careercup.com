@@ -11,8 +11,8 @@ from selenium import webdriver
 # Set default python encoding to utf-8 instead of asciii. 
 #sys.setdefaultencoding('utf8')
 #sys.getdefaultencoding()
-
-driver = webdriver.Chrome('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\chromedriver.exe')
+os.chdir('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\')
+driver = webdriver.Chrome('chromedriver.exe')
 
 def parsePage(html):
     #Regex to find the questions between <a><p></p></a> tags.Escape all special characters to fetch programs.

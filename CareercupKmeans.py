@@ -9,19 +9,21 @@ Created on Sat Apr 23 11:21:11 2016
 #devide further in clusters. Veryfy clusters visibly to determine clustering accuracy.
 ####################################################################################
 
-import pandas as pd,os,math
+import pandas as pd,os
 import matplotlib.pyplot as plt
 import numpy as np
+#import goto, label
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
 G1=G2=G3=G4=G5=0 #Level variables for Final plots
 #Open cleaned file written in LDA code and splt on dot delimiter.
-filerw=open('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\clean_file.txt').read()#.split(".")#.split(" . ")
+os.chdir('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\') 
+filerw=open('clean_file.txt').read()#.split(".")#.split(" . ")
 doc=[x for x in filerw.split('.') if x]
 columns = ['question','topic'] #define dataframe columns
 df = pd.DataFrame(columns=columns) 
-topic=open('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\topic_mixture_per_doc.txt').read().split("\n")
+topic=open('topic_mixture_per_doc.txt').read().split("\n")
 
 #Create the dataframe with questions and topic numbers
 for count,d in enumerate(doc):
@@ -58,7 +60,7 @@ for g in range(0,1):  #Repeat For each topic,Hardcoded LDA topic count
     print ("\n"+str(clusters)+"\n") #Print the cluster labels for each question
     
     #Compare cluster questions to each other and decide similarity levels 1-5     
-    Resultfile1="C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\Result.txt"
+    Resultfile1="Result.txt"
     
     loopval=WG5=0   
     xlbl = ('Incorrect Clusters','correct Clusters') 
@@ -93,8 +95,9 @@ for g in range(0,1):  #Repeat For each topic,Hardcoded LDA topic count
             plt.legend()
             plt.tight_layout()
             plt.show()
-            
+      #      label .negative
         elif user_input == 'N':
+            
             for counta,a in enumerate(topic_clusters):
                 for countb,b in enumerate(topic_clusters):
                     print ("how are below 2 questions are similar ?"+"\n")                
@@ -122,8 +125,8 @@ for g in range(0,1):  #Repeat For each topic,Hardcoded LDA topic count
                         G1=G1+1
                     print ("")
     
-            print("You have reviewed 50 questions.")
-            print("Clustering algorithm accuracy :" + str(((float(G5+G1)/float(64))*100)))
+            print("You have reviewed 8 questions.") # Tested on small dataset of 8 questions
+            print("Clustering algorithm accuracy :" + str(((float(G5+G1)/float(64))*100))) # Change 64 to number of comparisions nxn comparisions for n questions.
             questCount = [WG5,(G1+G5)] 
             plt.bar(y_pos, questCount, align='center', alpha=0.6)
             
@@ -137,7 +140,8 @@ for g in range(0,1):  #Repeat For each topic,Hardcoded LDA topic count
             plt.show()
             
         elif user_input == 'q':break
-    
+   # else:
+   #     goto .negative
 
 print("---- Legends ----")
 print("Incorrect Clusters : Has most similar questions falling into different clusters or vice-versa")

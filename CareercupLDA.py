@@ -2,11 +2,12 @@
 Using Latent Dirichlet Allocation for topic modeling. 
 """
 from sklearn.feature_extraction.text import CountVectorizer
-import lda
+import lda,os
 #from nltk.corpus import stopwords
 #stopwords=stopwords.words("english") 
 import numpy as np
 import re
+os.chdir('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\') 
 topic_num=1 # Number of topics for the LDA.
 
 #tokenization 
@@ -14,7 +15,7 @@ topic_num=1 # Number of topics for the LDA.
 tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, stop_words='english')
                                 
 #read the dataset                
-data=open('C:\\Users\\lalit\\Desktop\\Stevens\\Python\\careerCup\\dataset.txt').read()#split('EndOfQuestion')
+data=open('dataset.txt').read()#split('EndOfQuestion')
 doc0=re.sub('---.*?---',' ',data) #replace question keyword and number with space
 doc1=re.sub('[^a-zA-Z]',' ',doc0)#replace chars that are not letters or numbers with a space
 doc2=re.sub('EndOfQuestion','.',doc1)# replace EndOfQuestion with dot.
@@ -23,7 +24,7 @@ doc4=re.sub(' \.','.',doc3) #replace space dot with dot.
 doc5=re.sub('\. ','.',doc4.lower()) #replace dot space with only dot.
 docs=[x for x in doc5.split('.') if x] # split every document on . delimiter
 
-filew=open('clean_file.txt','a+') # write the cleaned documents file
+filew=open('clean_file.txt','w') # write the cleaned documents file
 for i in docs:
     filew.write(i+'.')        
 filew.close()
